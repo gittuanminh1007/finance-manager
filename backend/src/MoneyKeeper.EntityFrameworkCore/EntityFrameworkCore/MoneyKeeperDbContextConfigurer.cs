@@ -1,3 +1,4 @@
+using System;
 using System.Data.Common;
 using Microsoft.EntityFrameworkCore;
 
@@ -7,12 +8,14 @@ namespace MoneyKeeper.EntityFrameworkCore
     {
         public static void Configure(DbContextOptionsBuilder<MoneyKeeperDbContext> builder, string connectionString)
         {
-            builder.UseSqlServer(connectionString);
+            AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
+            builder.UseNpgsql(connectionString);
         }
 
         public static void Configure(DbContextOptionsBuilder<MoneyKeeperDbContext> builder, DbConnection connection)
         {
-            builder.UseSqlServer(connection);
+            AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
+            builder.UseNpgsql(connection);
         }
     }
 }

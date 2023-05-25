@@ -1,0 +1,834 @@
+DEBUG 2023-05-25 22:37:04,825 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2023-05-25 22:37:05,203 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2023-05-25 22:37:05,213 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MoneyKeeper.Web.Host.Startup.MoneyKeeperWebHostModule, MoneyKeeper.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-05-25 22:37:05,215 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MoneyKeeper.MoneyKeeperWebCoreModule, MoneyKeeper.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-05-25 22:37:05,215 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MoneyKeeper.MoneyKeeperApplicationModule, MoneyKeeper.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-05-25 22:37:05,218 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MoneyKeeper.MoneyKeeperCoreModule, MoneyKeeper.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-05-25 22:37:05,218 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-05-25 22:37:05,218 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-05-25 22:37:05,218 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-05-25 22:37:05,218 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-05-25 22:37:05,219 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MoneyKeeper.EntityFrameworkCore.MoneyKeeperEntityFrameworkModule, MoneyKeeper.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-05-25 22:37:05,219 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-05-25 22:37:05,219 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-05-25 22:37:05,219 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-05-25 22:37:05,220 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-05-25 22:37:05,220 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-05-25 22:37:05,220 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-05-25 22:37:05,222 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2023-05-25 22:37:05,360 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2023-05-25 22:37:05,360 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2023-05-25 22:37:05,360 [1    ] o.Configuration.LanguageManagementConfig - Converted MoneyKeeper (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2023-05-25 22:37:05,360 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2023-05-25 22:37:05,885 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: MoneyKeeper.EntityFrameworkCore.MoneyKeeperDbContext, MoneyKeeper.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-05-25 22:37:06,042 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2023-05-25 22:37:06,087 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2023-05-25 22:37:06,104 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2023-05-25 22:37:06,109 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: MoneyKeeper
+DEBUG 2023-05-25 22:37:06,114 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2023-05-25 22:37:06,120 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2023-05-25 22:37:06,122 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[MoneyKeeper.MultiTenancy.Tenant, MoneyKeeper.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[MoneyKeeper.Authorization.Users.User, MoneyKeeper.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2023-05-25 22:37:06,169 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2023-05-25 22:37:06,169 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MoneyKeeper.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2023-05-25 22:37:06,173 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MoneyKeeper.Users.Dto.CreateUserDto
+DEBUG 2023-05-25 22:37:06,174 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MoneyKeeper.Users.Dto.UserDto
+DEBUG 2023-05-25 22:37:06,174 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MoneyKeeper.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2023-05-25 22:37:06,174 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MoneyKeeper.Sessions.Dto.UserLoginInfoDto
+DEBUG 2023-05-25 22:37:06,174 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MoneyKeeper.Roles.Dto.PermissionDto
+DEBUG 2023-05-25 22:37:06,174 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MoneyKeeper.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2023-05-25 22:37:06,174 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MoneyKeeper.MultiTenancy.Dto.TenantDto
+WARN  2023-05-25 22:37:07,560 [1    ] oft.EntityFrameworkCore.Model.Validation - Entity 'Edition' has a global query filter defined and is the required end of a relationship with the entity 'EditionFeatureSetting'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+INFO  2023-05-25 22:37:07,868 [1    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.4 initialized 'MoneyKeeperDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.4+6cb649128e3e7aa8eddd77dfa75b34bad51e6e94' with options: None
+INFO  2023-05-25 22:37:08,494 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (71ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."DeleterUserId", a."DeletionTime", a."DisplayName", a."IsDeleted", a."LastModificationTime", a."LastModifierUserId", a."Name"
+FROM "AbpEditions" AS a
+WHERE a."Name" = 'Standard'
+LIMIT 1
+INFO  2023-05-25 22:37:08,631 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (10ms) [Parameters=[@__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE ((a."TenantId" IS NULL)) AND (a."Name" = @__language_Name_1))
+INFO  2023-05-25 22:37:08,636 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE ((a."TenantId" IS NULL)) AND (a."Name" = @__language_Name_1))
+INFO  2023-05-25 22:37:08,636 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE ((a."TenantId" IS NULL)) AND (a."Name" = @__language_Name_1))
+INFO  2023-05-25 22:37:08,637 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE ((a."TenantId" IS NULL)) AND (a."Name" = @__language_Name_1))
+INFO  2023-05-25 22:37:08,638 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE ((a."TenantId" IS NULL)) AND (a."Name" = @__language_Name_1))
+INFO  2023-05-25 22:37:08,638 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE ((a."TenantId" IS NULL)) AND (a."Name" = @__language_Name_1))
+INFO  2023-05-25 22:37:08,639 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE ((a."TenantId" IS NULL)) AND (a."Name" = @__language_Name_1))
+INFO  2023-05-25 22:37:08,640 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE ((a."TenantId" IS NULL)) AND (a."Name" = @__language_Name_1))
+INFO  2023-05-25 22:37:08,640 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE ((a."TenantId" IS NULL)) AND (a."Name" = @__language_Name_1))
+INFO  2023-05-25 22:37:08,641 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE ((a."TenantId" IS NULL)) AND (a."Name" = @__language_Name_1))
+INFO  2023-05-25 22:37:08,642 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE ((a."TenantId" IS NULL)) AND (a."Name" = @__language_Name_1))
+INFO  2023-05-25 22:37:08,643 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE ((a."TenantId" IS NULL)) AND (a."Name" = @__language_Name_1))
+INFO  2023-05-25 22:37:08,643 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE ((a."TenantId" IS NULL)) AND (a."Name" = @__language_Name_1))
+INFO  2023-05-25 22:37:08,656 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."CreationTime", a."CreatorUserId", a."DeleterUserId", a."DeletionTime", a."Description", a."DisplayName", a."IsDefault", a."IsDeleted", a."IsStatic", a."LastModificationTime", a."LastModifierUserId", a."Name", a."NormalizedName", a."TenantId"
+FROM "AbpRoles" AS a
+WHERE ((a."TenantId" IS NULL)) AND (a."Name" = 'Admin')
+LIMIT 1
+INFO  2023-05-25 22:37:08,741 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (9ms) [Parameters=[@__adminRoleForHost_Id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Name"
+FROM "AbpPermissions" AS a
+WHERE (a."Discriminator" = 'RolePermissionSetting') AND (((a."TenantId" IS NULL)) AND (a."RoleId" = @__adminRoleForHost_Id_0))
+INFO  2023-05-25 22:37:08,753 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (4ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."AuthenticationSource", a."ConcurrencyStamp", a."CreationTime", a."CreatorUserId", a."DeleterUserId", a."DeletionTime", a."EmailAddress", a."EmailConfirmationCode", a."IsActive", a."IsDeleted", a."IsEmailConfirmed", a."IsLockoutEnabled", a."IsPhoneNumberConfirmed", a."IsTwoFactorEnabled", a."LastModificationTime", a."LastModifierUserId", a."LockoutEndDateUtc", a."Name", a."NormalizedEmailAddress", a."NormalizedUserName", a."Password", a."PasswordResetCode", a."PhoneNumber", a."SecurityStamp", a."Surname", a."TenantId", a."UserName"
+FROM "AbpUsers" AS a
+WHERE ((a."TenantId" IS NULL)) AND (a."UserName" = 'admin')
+LIMIT 1
+INFO  2023-05-25 22:37:08,853 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[@__name_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpSettings" AS a
+    WHERE ((a."Name" = @__name_0) AND ((a."TenantId" IS NULL))) AND ((a."UserId" IS NULL)))
+INFO  2023-05-25 22:37:08,855 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__name_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpSettings" AS a
+    WHERE ((a."Name" = @__name_0) AND ((a."TenantId" IS NULL))) AND ((a."UserId" IS NULL)))
+INFO  2023-05-25 22:37:08,855 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__name_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpSettings" AS a
+    WHERE ((a."Name" = @__name_0) AND ((a."TenantId" IS NULL))) AND ((a."UserId" IS NULL)))
+INFO  2023-05-25 22:37:08,922 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConnectionString", a."CreationTime", a."CreatorUserId", a."DeleterUserId", a."DeletionTime", a."EditionId", a."IsActive", a."IsDeleted", a."LastModificationTime", a."LastModifierUserId", a."Name", a."TenancyName"
+FROM "AbpTenants" AS a
+WHERE a."TenancyName" = 'Default'
+LIMIT 1
+INFO  2023-05-25 22:37:08,955 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@___tenantId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."CreationTime", a."CreatorUserId", a."DeleterUserId", a."DeletionTime", a."Description", a."DisplayName", a."IsDefault", a."IsDeleted", a."IsStatic", a."LastModificationTime", a."LastModifierUserId", a."Name", a."NormalizedName", a."TenantId"
+FROM "AbpRoles" AS a
+WHERE (a."TenantId" = @___tenantId_0) AND (a."Name" = 'Admin')
+LIMIT 1
+INFO  2023-05-25 22:37:08,958 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@___tenantId_0='?' (DbType = Int32), @__adminRole_Id_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Name"
+FROM "AbpPermissions" AS a
+WHERE (a."Discriminator" = 'RolePermissionSetting') AND ((a."TenantId" = @___tenantId_0) AND (a."RoleId" = @__adminRole_Id_1))
+INFO  2023-05-25 22:37:08,968 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@___tenantId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."AuthenticationSource", a."ConcurrencyStamp", a."CreationTime", a."CreatorUserId", a."DeleterUserId", a."DeletionTime", a."EmailAddress", a."EmailConfirmationCode", a."IsActive", a."IsDeleted", a."IsEmailConfirmed", a."IsLockoutEnabled", a."IsPhoneNumberConfirmed", a."IsTwoFactorEnabled", a."LastModificationTime", a."LastModifierUserId", a."LockoutEndDateUtc", a."Name", a."NormalizedEmailAddress", a."NormalizedUserName", a."Password", a."PasswordResetCode", a."PhoneNumber", a."SecurityStamp", a."Surname", a."TenantId", a."UserName"
+FROM "AbpUsers" AS a
+WHERE (a."TenantId" = @___tenantId_0) AND (a."UserName" = 'admin')
+LIMIT 1
+INFO  2023-05-25 22:37:09,009 [1    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.4 initialized 'MoneyKeeperDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.4+6cb649128e3e7aa8eddd77dfa75b34bad51e6e94' with options: None
+INFO  2023-05-25 22:37:09,023 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__ef_filter__p_1='?' (DbType = Boolean)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."DeleterUserId", a."DeletionTime", a."DisplayName", a."Icon", a."IsDeleted", a."IsDisabled", a."LastModificationTime", a."LastModifierUserId", a."Name", a."TenantId"
+FROM "AbpLanguages" AS a
+WHERE (@__ef_filter__p_0 OR NOT (a."IsDeleted")) AND (@__ef_filter__p_1 OR ((a."TenantId" IS NULL)))
+INFO  2023-05-25 22:37:09,115 [1    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.4 initialized 'MoneyKeeperDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.4+6cb649128e3e7aa8eddd77dfa75b34bad51e6e94' with options: None
+INFO  2023-05-25 22:37:09,129 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."LastModificationTime", a."LastModifierUserId", a."Name", a."TenantId", a."UserId", a."Value"
+FROM "AbpSettings" AS a
+WHERE (@__ef_filter__p_0 OR ((a."TenantId" IS NULL))) AND (((a."UserId" IS NULL)) AND ((a."TenantId" IS NULL)))
+INFO  2023-05-25 22:37:09,157 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,fa,ja,zh-Hans
+WARN  2023-05-25 22:37:10,112 [1    ] Microsoft.AspNetCore.Server.Kestrel      - Overriding address(es) 'https://localhost:44311/'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+INFO  2023-05-25 22:37:10,140 [1    ] Microsoft.Hosting.Lifetime               - Now listening on: https://localhost:44311
+INFO  2023-05-25 22:37:10,142 [1    ] Microsoft.Hosting.Lifetime               - Application started. Press Ctrl+C to shut down.
+INFO  2023-05-25 22:37:10,142 [1    ] Microsoft.Hosting.Lifetime               - Hosting environment: Development
+INFO  2023-05-25 22:37:10,142 [1    ] Microsoft.Hosting.Lifetime               - Content root path: G:\Sources\gittuanminh1007.finance-manager\backend\src\MoneyKeeper.Web.Host
+INFO  2023-05-25 22:37:11,005 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/ - -
+INFO  2023-05-25 22:37:11,145 [4    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.4 initialized 'MoneyKeeperDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.4+6cb649128e3e7aa8eddd77dfa75b34bad51e6e94' with options: None
+INFO  2023-05-25 22:37:11,174 [4    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (3ms) [Parameters=[@__Now_0='?' (DbType = DateTime), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."IsAbandoned", a."JobArgs", a."JobType", a."LastTryTime", a."NextTryTime", a."Priority", a."TryCount"
+FROM "AbpBackgroundJobs" AS a
+WHERE NOT (a."IsAbandoned") AND (a."NextTryTime" <= @__Now_0)
+ORDER BY a."Priority" DESC, a."TryCount", a."NextTryTime"
+LIMIT @__p_1
+INFO  2023-05-25 22:37:11,568 [19   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MoneyKeeper.Web.Host.Controllers.HomeController.Index (MoneyKeeper.Web.Host)'
+INFO  2023-05-25 22:37:11,592 [19   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller MoneyKeeper.Web.Host.Controllers.HomeController (MoneyKeeper.Web.Host).
+INFO  2023-05-25 22:37:11,626 [19   ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.4 initialized 'MoneyKeeperDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.4+6cb649128e3e7aa8eddd77dfa75b34bad51e6e94' with options: None
+INFO  2023-05-25 22:37:11,815 [9    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (10ms) [Parameters=[@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?', @p6='?' (DbType = Int32), @p7='?' (DbType = DateTime), @p8='?' (DbType = Int32), @p9='?' (DbType = Int64), @p10='?', @p11='?', @p12='?', @p13='?', @p14='?' (DbType = Int32), @p15='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+INSERT INTO "AbpAuditLogs" ("BrowserInfo", "ClientIpAddress", "ClientName", "CustomData", "Exception", "ExceptionMessage", "ExecutionDuration", "ExecutionTime", "ImpersonatorTenantId", "ImpersonatorUserId", "MethodName", "Parameters", "ReturnValue", "ServiceName", "TenantId", "UserId")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15)
+RETURNING "Id";
+INFO  2023-05-25 22:37:11,908 [19   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2023-05-25 22:37:11,915 [19   ] c.Infrastructure.ControllerActionInvoker - Executed action MoneyKeeper.Web.Host.Controllers.HomeController.Index (MoneyKeeper.Web.Host) in 317.7818ms
+INFO  2023-05-25 22:37:11,916 [19   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MoneyKeeper.Web.Host.Controllers.HomeController.Index (MoneyKeeper.Web.Host)'
+INFO  2023-05-25 22:37:11,924 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/ - - - 302 0 - 920.3764ms
+INFO  2023-05-25 22:37:11,942 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger - -
+INFO  2023-05-25 22:37:11,975 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger - - - 301 0 - 33.2023ms
+INFO  2023-05-25 22:37:11,984 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/index.html - -
+INFO  2023-05-25 22:37:12,151 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/index.html - - - 200 - text/html;charset=utf-8 167.3620ms
+INFO  2023-05-25 22:37:12,155 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/swagger-ui.css - -
+INFO  2023-05-25 22:37:12,155 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/swagger-ui-bundle.js - -
+INFO  2023-05-25 22:37:12,155 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/swagger-ui-standalone-preset.js - -
+INFO  2023-05-25 22:37:12,156 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/ui/abp.js - -
+INFO  2023-05-25 22:37:12,157 [22   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/ui/abp.swagger.js - -
+INFO  2023-05-25 22:37:12,157 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/_framework/aspnetcore-browser-refresh.js - -
+INFO  2023-05-25 22:37:12,171 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/_framework/aspnetcore-browser-refresh.js - - - 200 12010 application/javascript;+charset=utf-8 13.7349ms
+INFO  2023-05-25 22:37:12,174 [15   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+INFO  2023-05-25 22:37:12,174 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.js'. Physical path: 'G:\Sources\gittuanminh1007.finance-manager\backend\src\MoneyKeeper.Web.Host\wwwroot\swagger\ui\abp.js'
+INFO  2023-05-25 22:37:12,176 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/_vs/browserLink - -
+INFO  2023-05-25 22:37:12,181 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/ui/abp.js - - - 200 3697 application/javascript 25.7102ms
+INFO  2023-05-25 22:37:12,182 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/swagger-ui.css - - - 200 143943 text/css 26.6307ms
+INFO  2023-05-25 22:37:12,183 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.swagger.js'. Physical path: 'G:\Sources\gittuanminh1007.finance-manager\backend\src\MoneyKeeper.Web.Host\wwwroot\swagger\ui\abp.swagger.js'
+INFO  2023-05-25 22:37:12,184 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/ui/abp.swagger.js - - - 200 8029 application/javascript 26.3982ms
+INFO  2023-05-25 22:37:12,185 [17   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+INFO  2023-05-25 22:37:12,185 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/swagger-ui-standalone-preset.js - - - 200 339486 application/javascript 29.8449ms
+INFO  2023-05-25 22:37:12,193 [19   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+INFO  2023-05-25 22:37:12,194 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/swagger-ui-bundle.js - - - 200 1095087 application/javascript 38.2925ms
+INFO  2023-05-25 22:37:12,255 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 78.3405ms
+INFO  2023-05-25 22:37:12,466 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/AntiForgery/SetCookie - -
+INFO  2023-05-25 22:37:12,467 [18   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MoneyKeeper.Web.Host.Controllers.AntiForgeryController.SetCookie (MoneyKeeper.Web.Host)'
+INFO  2023-05-25 22:37:12,471 [18   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller MoneyKeeper.Web.Host.Controllers.AntiForgeryController (MoneyKeeper.Web.Host).
+INFO  2023-05-25 22:37:12,482 [18   ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.4 initialized 'MoneyKeeperDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.4+6cb649128e3e7aa8eddd77dfa75b34bad51e6e94' with options: None
+INFO  2023-05-25 22:37:12,485 [9    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?', @p6='?' (DbType = Int32), @p7='?' (DbType = DateTime), @p8='?' (DbType = Int32), @p9='?' (DbType = Int64), @p10='?', @p11='?', @p12='?', @p13='?', @p14='?' (DbType = Int32), @p15='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+INSERT INTO "AbpAuditLogs" ("BrowserInfo", "ClientIpAddress", "ClientName", "CustomData", "Exception", "ExceptionMessage", "ExecutionDuration", "ExecutionTime", "ImpersonatorTenantId", "ImpersonatorUserId", "MethodName", "Parameters", "ReturnValue", "ServiceName", "TenantId", "UserId")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15)
+RETURNING "Id";
+INFO  2023-05-25 22:37:12,490 [9    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2023-05-25 22:37:12,514 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/v1/swagger.json - -
+INFO  2023-05-25 22:37:12,552 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/favicon-32x32.png - -
+INFO  2023-05-25 22:37:12,553 [18   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+INFO  2023-05-25 22:37:12,553 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/favicon-32x32.png - - - 200 628 image/png 1.2551ms
+INFO  2023-05-25 22:37:12,622 [9    ] c.Infrastructure.ControllerActionInvoker - Executed action MoneyKeeper.Web.Host.Controllers.AntiForgeryController.SetCookie (MoneyKeeper.Web.Host) in 151.2625ms
+INFO  2023-05-25 22:37:12,623 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MoneyKeeper.Web.Host.Controllers.AntiForgeryController.SetCookie (MoneyKeeper.Web.Host)'
+INFO  2023-05-25 22:37:12,623 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/AntiForgery/SetCookie - - - 200 101 application/json;+charset=utf-8 156.7913ms
+INFO  2023-05-25 22:37:12,694 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 180.6028ms
+INFO  2023-05-25 22:37:16,183 [18   ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.4 initialized 'MoneyKeeperDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.4+6cb649128e3e7aa8eddd77dfa75b34bad51e6e94' with options: None
+INFO  2023-05-25 22:37:16,184 [18   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__Now_0='?' (DbType = DateTime), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."IsAbandoned", a."JobArgs", a."JobType", a."LastTryTime", a."NextTryTime", a."Priority", a."TryCount"
+FROM "AbpBackgroundJobs" AS a
+WHERE NOT (a."IsAbandoned") AND (a."NextTryTime" <= @__Now_0)
+ORDER BY a."Priority" DESC, a."TryCount", a."NextTryTime"
+LIMIT @__p_1
+INFO  2023-05-25 22:37:21,193 [18   ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.4 initialized 'MoneyKeeperDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.4+6cb649128e3e7aa8eddd77dfa75b34bad51e6e94' with options: None
+INFO  2023-05-25 22:37:21,196 [18   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__Now_0='?' (DbType = DateTime), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."IsAbandoned", a."JobArgs", a."JobType", a."LastTryTime", a."NextTryTime", a."Priority", a."TryCount"
+FROM "AbpBackgroundJobs" AS a
+WHERE NOT (a."IsAbandoned") AND (a."NextTryTime" <= @__Now_0)
+ORDER BY a."Priority" DESC, a."TryCount", a."NextTryTime"
+LIMIT @__p_1
+INFO  2023-05-25 22:37:26,209 [7    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.4 initialized 'MoneyKeeperDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.4+6cb649128e3e7aa8eddd77dfa75b34bad51e6e94' with options: None
+INFO  2023-05-25 22:37:26,211 [7    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__Now_0='?' (DbType = DateTime), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."IsAbandoned", a."JobArgs", a."JobType", a."LastTryTime", a."NextTryTime", a."Priority", a."TryCount"
+FROM "AbpBackgroundJobs" AS a
+WHERE NOT (a."IsAbandoned") AND (a."NextTryTime" <= @__Now_0)
+ORDER BY a."Priority" DESC, a."TryCount", a."NextTryTime"
+LIMIT @__p_1
+INFO  2023-05-25 22:37:31,218 [18   ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.4 initialized 'MoneyKeeperDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.4+6cb649128e3e7aa8eddd77dfa75b34bad51e6e94' with options: None
+INFO  2023-05-25 22:37:31,220 [18   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__Now_0='?' (DbType = DateTime), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."IsAbandoned", a."JobArgs", a."JobType", a."LastTryTime", a."NextTryTime", a."Priority", a."TryCount"
+FROM "AbpBackgroundJobs" AS a
+WHERE NOT (a."IsAbandoned") AND (a."NextTryTime" <= @__Now_0)
+ORDER BY a."Priority" DESC, a."TryCount", a."NextTryTime"
+LIMIT @__p_1
+INFO  2023-05-25 22:37:36,224 [7    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.4 initialized 'MoneyKeeperDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.4+6cb649128e3e7aa8eddd77dfa75b34bad51e6e94' with options: None
+INFO  2023-05-25 22:37:36,225 [7    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__Now_0='?' (DbType = DateTime), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."IsAbandoned", a."JobArgs", a."JobType", a."LastTryTime", a."NextTryTime", a."Priority", a."TryCount"
+FROM "AbpBackgroundJobs" AS a
+WHERE NOT (a."IsAbandoned") AND (a."NextTryTime" <= @__Now_0)
+ORDER BY a."Priority" DESC, a."TryCount", a."NextTryTime"
+LIMIT @__p_1
+INFO  2023-05-25 22:37:36,680 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 POST https://localhost:44311/api/TokenAuth/Authenticate application/json-patch+json 89
+INFO  2023-05-25 22:37:36,684 [7    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2023-05-25 22:37:36,684 [7    ] pNetCore.Cors.Infrastructure.CorsService - Request origin https://localhost:44311 does not have permission to access the resource.
+INFO  2023-05-25 22:37:36,686 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MoneyKeeper.Controllers.TokenAuthController.Authenticate (MoneyKeeper.Web.Core)'
+INFO  2023-05-25 22:37:36,715 [7    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Authenticate", controller = "TokenAuth", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[MoneyKeeper.Models.TokenAuth.AuthenticateResultModel] Authenticate(MoneyKeeper.Models.TokenAuth.AuthenticateModel) on controller MoneyKeeper.Controllers.TokenAuthController (MoneyKeeper.Web.Core).
+INFO  2023-05-25 22:37:36,985 [7    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.4 initialized 'MoneyKeeperDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.4+6cb649128e3e7aa8eddd77dfa75b34bad51e6e94' with options: None
+INFO  2023-05-25 22:37:37,018 [20   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__ef_filter__p_1='?' (DbType = Boolean), @__normalizedUserNameOrEmailAddress_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."AuthenticationSource", a."ConcurrencyStamp", a."CreationTime", a."CreatorUserId", a."DeleterUserId", a."DeletionTime", a."EmailAddress", a."EmailConfirmationCode", a."IsActive", a."IsDeleted", a."IsEmailConfirmed", a."IsLockoutEnabled", a."IsPhoneNumberConfirmed", a."IsTwoFactorEnabled", a."LastModificationTime", a."LastModifierUserId", a."LockoutEndDateUtc", a."Name", a."NormalizedEmailAddress", a."NormalizedUserName", a."Password", a."PasswordResetCode", a."PhoneNumber", a."SecurityStamp", a."Surname", a."TenantId", a."UserName"
+FROM "AbpUsers" AS a
+WHERE ((@__ef_filter__p_0 OR NOT (a."IsDeleted")) AND (@__ef_filter__p_1 OR ((a."TenantId" IS NULL)))) AND ((a."NormalizedUserName" = @__normalizedUserNameOrEmailAddress_0) OR (a."NormalizedEmailAddress" = @__normalizedUserNameOrEmailAddress_0))
+LIMIT 1
+INFO  2023-05-25 22:37:37,107 [20   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (3ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__p_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ClaimType", a."ClaimValue", a."CreationTime", a."CreatorUserId", a."TenantId", a."UserId"
+FROM "AbpUserClaims" AS a
+WHERE (@__ef_filter__p_0 OR ((a."TenantId" IS NULL))) AND (a."UserId" = @__p_0)
+INFO  2023-05-25 22:37:37,176 [9    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[@__ef_filter__p_2='?' (DbType = Boolean), @__ef_filter__p_3='?' (DbType = Boolean), @__ef_filter__p_0='?' (DbType = Boolean), @__user_Id_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SELECT t."Name"
+FROM "AbpUserRoles" AS a
+INNER JOIN (
+    SELECT a0."Id", a0."Name"
+    FROM "AbpRoles" AS a0
+    WHERE (@__ef_filter__p_2 OR NOT (a0."IsDeleted")) AND (@__ef_filter__p_3 OR ((a0."TenantId" IS NULL)))
+) AS t ON a."RoleId" = t."Id"
+WHERE (@__ef_filter__p_0 OR ((a."TenantId" IS NULL))) AND (a."UserId" = @__user_Id_0)
+INFO  2023-05-25 22:37:37,192 [9    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (4ms) [Parameters=[@__ef_filter__p_3='?' (DbType = Boolean), @__ef_filter__p_4='?' (DbType = Boolean), @__ef_filter__p_6='?' (DbType = Boolean), @__ef_filter__p_7='?' (DbType = Boolean), @__ef_filter__p_0='?' (DbType = Boolean), @__ef_filter__p_1='?' (DbType = Boolean), @__user_Id_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SELECT t0."Name"
+FROM "AbpUserOrganizationUnits" AS a
+INNER JOIN (
+    SELECT a0."OrganizationUnitId", a0."RoleId"
+    FROM "AbpOrganizationUnitRoles" AS a0
+    WHERE (@__ef_filter__p_3 OR NOT (a0."IsDeleted")) AND (@__ef_filter__p_4 OR ((a0."TenantId" IS NULL)))
+) AS t ON a."OrganizationUnitId" = t."OrganizationUnitId"
+INNER JOIN (
+    SELECT a1."Id", a1."Name"
+    FROM "AbpRoles" AS a1
+    WHERE (@__ef_filter__p_6 OR NOT (a1."IsDeleted")) AND (@__ef_filter__p_7 OR ((a1."TenantId" IS NULL)))
+) AS t0 ON t."RoleId" = t0."Id"
+WHERE ((@__ef_filter__p_0 OR NOT (a."IsDeleted")) AND (@__ef_filter__p_1 OR ((a."TenantId" IS NULL)))) AND (a."UserId" = @__user_Id_0)
+INFO  2023-05-25 22:37:37,220 [20   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__ef_filter__p_1='?' (DbType = Boolean), @__normalizedName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."CreationTime", a."CreatorUserId", a."DeleterUserId", a."DeletionTime", a."Description", a."DisplayName", a."IsDefault", a."IsDeleted", a."IsStatic", a."LastModificationTime", a."LastModifierUserId", a."Name", a."NormalizedName", a."TenantId"
+FROM "AbpRoles" AS a
+WHERE ((@__ef_filter__p_0 OR NOT (a."IsDeleted")) AND (@__ef_filter__p_1 OR ((a."TenantId" IS NULL)))) AND (a."NormalizedName" = @__normalizedName_0)
+LIMIT 1
+INFO  2023-05-25 22:37:37,242 [9    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ClaimType", a."ClaimValue", a."CreationTime", a."CreatorUserId", a."RoleId", a."TenantId"
+FROM "AbpRoleClaims" AS a
+WHERE (@__ef_filter__p_0 OR ((a."TenantId" IS NULL))) AND (a."RoleId" = @__p_0)
+INFO  2023-05-25 22:37:37,255 [9    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.4 initialized 'MoneyKeeperDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.4+6cb649128e3e7aa8eddd77dfa75b34bad51e6e94' with options: None
+INFO  2023-05-25 22:37:37,377 [24   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (14ms) [Parameters=[@p0='?', @p1='?', @p2='?', @p3='?' (DbType = DateTime), @p4='?' (DbType = Int16), @p5='?', @p6='?' (DbType = Int32), @p7='?' (DbType = Int64), @p8='?'], CommandType='Text', CommandTimeout='30']
+INSERT INTO "AbpUserLoginAttempts" ("BrowserInfo", "ClientIpAddress", "ClientName", "CreationTime", "Result", "TenancyName", "TenantId", "UserId", "UserNameOrEmailAddress")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8)
+RETURNING "Id";
+INFO  2023-05-25 22:37:37,844 [24   ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.4 initialized 'MoneyKeeperDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.4+6cb649128e3e7aa8eddd77dfa75b34bad51e6e94' with options: None
+INFO  2023-05-25 22:37:37,847 [24   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?', @p6='?' (DbType = Int32), @p7='?' (DbType = DateTime), @p8='?' (DbType = Int32), @p9='?' (DbType = Int64), @p10='?', @p11='?', @p12='?', @p13='?', @p14='?' (DbType = Int32), @p15='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+INSERT INTO "AbpAuditLogs" ("BrowserInfo", "ClientIpAddress", "ClientName", "CustomData", "Exception", "ExceptionMessage", "ExecutionDuration", "ExecutionTime", "ImpersonatorTenantId", "ImpersonatorUserId", "MethodName", "Parameters", "ReturnValue", "ServiceName", "TenantId", "UserId")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15)
+RETURNING "Id";
+INFO  2023-05-25 22:37:37,853 [24   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2023-05-25 22:37:37,858 [24   ] c.Infrastructure.ControllerActionInvoker - Executed action MoneyKeeper.Controllers.TokenAuthController.Authenticate (MoneyKeeper.Web.Core) in 1142.6394ms
+INFO  2023-05-25 22:37:37,858 [24   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MoneyKeeper.Controllers.TokenAuthController.Authenticate (MoneyKeeper.Web.Core)'
+INFO  2023-05-25 22:37:37,858 [24   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 POST https://localhost:44311/api/TokenAuth/Authenticate application/json-patch+json 89 - 200 2035 application/json;+charset=utf-8 1178.3273ms
+INFO  2023-05-25 22:37:41,237 [7    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.4 initialized 'MoneyKeeperDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.4+6cb649128e3e7aa8eddd77dfa75b34bad51e6e94' with options: None
+INFO  2023-05-25 22:37:41,238 [7    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__Now_0='?' (DbType = DateTime), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."IsAbandoned", a."JobArgs", a."JobType", a."LastTryTime", a."NextTryTime", a."Priority", a."TryCount"
+FROM "AbpBackgroundJobs" AS a
+WHERE NOT (a."IsAbandoned") AND (a."NextTryTime" <= @__Now_0)
+ORDER BY a."Priority" DESC, a."TryCount", a."NextTryTime"
+LIMIT @__p_1
+INFO  2023-05-25 22:37:46,263 [7    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.4 initialized 'MoneyKeeperDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.4+6cb649128e3e7aa8eddd77dfa75b34bad51e6e94' with options: None
+INFO  2023-05-25 22:37:46,273 [7    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (4ms) [Parameters=[@__Now_0='?' (DbType = DateTime), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."IsAbandoned", a."JobArgs", a."JobType", a."LastTryTime", a."NextTryTime", a."Priority", a."TryCount"
+FROM "AbpBackgroundJobs" AS a
+WHERE NOT (a."IsAbandoned") AND (a."NextTryTime" <= @__Now_0)
+ORDER BY a."Priority" DESC, a."TryCount", a."NextTryTime"
+LIMIT @__p_1
+INFO  2023-05-25 22:37:51,286 [17   ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.4 initialized 'MoneyKeeperDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.4+6cb649128e3e7aa8eddd77dfa75b34bad51e6e94' with options: None
+INFO  2023-05-25 22:37:51,287 [17   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__Now_0='?' (DbType = DateTime), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."IsAbandoned", a."JobArgs", a."JobType", a."LastTryTime", a."NextTryTime", a."Priority", a."TryCount"
+FROM "AbpBackgroundJobs" AS a
+WHERE NOT (a."IsAbandoned") AND (a."NextTryTime" <= @__Now_0)
+ORDER BY a."Priority" DESC, a."TryCount", a."NextTryTime"
+LIMIT @__p_1
+INFO  2023-05-25 22:37:56,305 [17   ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.4 initialized 'MoneyKeeperDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.4+6cb649128e3e7aa8eddd77dfa75b34bad51e6e94' with options: None
+INFO  2023-05-25 22:37:56,306 [17   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__Now_0='?' (DbType = DateTime), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."IsAbandoned", a."JobArgs", a."JobType", a."LastTryTime", a."NextTryTime", a."Priority", a."TryCount"
+FROM "AbpBackgroundJobs" AS a
+WHERE NOT (a."IsAbandoned") AND (a."NextTryTime" <= @__Now_0)
+ORDER BY a."Priority" DESC, a."TryCount", a."NextTryTime"
+LIMIT @__p_1
+INFO  2023-05-25 22:38:01,324 [17   ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.4 initialized 'MoneyKeeperDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.4+6cb649128e3e7aa8eddd77dfa75b34bad51e6e94' with options: None
+INFO  2023-05-25 22:38:01,326 [17   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__Now_0='?' (DbType = DateTime), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."IsAbandoned", a."JobArgs", a."JobType", a."LastTryTime", a."NextTryTime", a."Priority", a."TryCount"
+FROM "AbpBackgroundJobs" AS a
+WHERE NOT (a."IsAbandoned") AND (a."NextTryTime" <= @__Now_0)
+ORDER BY a."Priority" DESC, a."TryCount", a."NextTryTime"
+LIMIT @__p_1
+INFO  2023-05-25 22:38:06,337 [17   ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.4 initialized 'MoneyKeeperDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.4+6cb649128e3e7aa8eddd77dfa75b34bad51e6e94' with options: None
+INFO  2023-05-25 22:38:06,338 [17   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__Now_0='?' (DbType = DateTime), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."IsAbandoned", a."JobArgs", a."JobType", a."LastTryTime", a."NextTryTime", a."Priority", a."TryCount"
+FROM "AbpBackgroundJobs" AS a
+WHERE NOT (a."IsAbandoned") AND (a."NextTryTime" <= @__Now_0)
+ORDER BY a."Priority" DESC, a."TryCount", a."NextTryTime"
+LIMIT @__p_1
+INFO  2023-05-25 22:38:11,342 [17   ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.4 initialized 'MoneyKeeperDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.4+6cb649128e3e7aa8eddd77dfa75b34bad51e6e94' with options: None
+INFO  2023-05-25 22:38:11,343 [17   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__Now_0='?' (DbType = DateTime), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."IsAbandoned", a."JobArgs", a."JobType", a."LastTryTime", a."NextTryTime", a."Priority", a."TryCount"
+FROM "AbpBackgroundJobs" AS a
+WHERE NOT (a."IsAbandoned") AND (a."NextTryTime" <= @__Now_0)
+ORDER BY a."Priority" DESC, a."TryCount", a."NextTryTime"
+LIMIT @__p_1
+INFO  2023-05-25 22:38:16,372 [7    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.4 initialized 'MoneyKeeperDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.4+6cb649128e3e7aa8eddd77dfa75b34bad51e6e94' with options: None
+INFO  2023-05-25 22:38:16,373 [7    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__Now_0='?' (DbType = DateTime), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."IsAbandoned", a."JobArgs", a."JobType", a."LastTryTime", a."NextTryTime", a."Priority", a."TryCount"
+FROM "AbpBackgroundJobs" AS a
+WHERE NOT (a."IsAbandoned") AND (a."NextTryTime" <= @__Now_0)
+ORDER BY a."Priority" DESC, a."TryCount", a."NextTryTime"
+LIMIT @__p_1
+INFO  2023-05-25 22:38:21,384 [17   ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.4 initialized 'MoneyKeeperDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.4+6cb649128e3e7aa8eddd77dfa75b34bad51e6e94' with options: None
+INFO  2023-05-25 22:38:21,385 [17   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__Now_0='?' (DbType = DateTime), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."IsAbandoned", a."JobArgs", a."JobType", a."LastTryTime", a."NextTryTime", a."Priority", a."TryCount"
+FROM "AbpBackgroundJobs" AS a
+WHERE NOT (a."IsAbandoned") AND (a."NextTryTime" <= @__Now_0)
+ORDER BY a."Priority" DESC, a."TryCount", a."NextTryTime"
+LIMIT @__p_1
+INFO  2023-05-25 22:38:26,390 [17   ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.4 initialized 'MoneyKeeperDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.4+6cb649128e3e7aa8eddd77dfa75b34bad51e6e94' with options: None
+INFO  2023-05-25 22:38:26,392 [17   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__Now_0='?' (DbType = DateTime), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."IsAbandoned", a."JobArgs", a."JobType", a."LastTryTime", a."NextTryTime", a."Priority", a."TryCount"
+FROM "AbpBackgroundJobs" AS a
+WHERE NOT (a."IsAbandoned") AND (a."NextTryTime" <= @__Now_0)
+ORDER BY a."Priority" DESC, a."TryCount", a."NextTryTime"
+LIMIT @__p_1
+INFO  2023-05-25 22:38:31,410 [17   ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.4 initialized 'MoneyKeeperDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.4+6cb649128e3e7aa8eddd77dfa75b34bad51e6e94' with options: None
+INFO  2023-05-25 22:38:31,411 [17   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__Now_0='?' (DbType = DateTime), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."IsAbandoned", a."JobArgs", a."JobType", a."LastTryTime", a."NextTryTime", a."Priority", a."TryCount"
+FROM "AbpBackgroundJobs" AS a
+WHERE NOT (a."IsAbandoned") AND (a."NextTryTime" <= @__Now_0)
+ORDER BY a."Priority" DESC, a."TryCount", a."NextTryTime"
+LIMIT @__p_1
+INFO  2023-05-25 22:38:36,422 [17   ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.4 initialized 'MoneyKeeperDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.4+6cb649128e3e7aa8eddd77dfa75b34bad51e6e94' with options: None
+INFO  2023-05-25 22:38:36,423 [17   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__Now_0='?' (DbType = DateTime), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."IsAbandoned", a."JobArgs", a."JobType", a."LastTryTime", a."NextTryTime", a."Priority", a."TryCount"
+FROM "AbpBackgroundJobs" AS a
+WHERE NOT (a."IsAbandoned") AND (a."NextTryTime" <= @__Now_0)
+ORDER BY a."Priority" DESC, a."TryCount", a."NextTryTime"
+LIMIT @__p_1
+INFO  2023-05-25 22:38:41,440 [25   ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.4 initialized 'MoneyKeeperDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.4+6cb649128e3e7aa8eddd77dfa75b34bad51e6e94' with options: None
+INFO  2023-05-25 22:38:41,441 [25   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__Now_0='?' (DbType = DateTime), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."IsAbandoned", a."JobArgs", a."JobType", a."LastTryTime", a."NextTryTime", a."Priority", a."TryCount"
+FROM "AbpBackgroundJobs" AS a
+WHERE NOT (a."IsAbandoned") AND (a."NextTryTime" <= @__Now_0)
+ORDER BY a."Priority" DESC, a."TryCount", a."NextTryTime"
+LIMIT @__p_1
+INFO  2023-05-25 22:38:46,448 [17   ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.4 initialized 'MoneyKeeperDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.4+6cb649128e3e7aa8eddd77dfa75b34bad51e6e94' with options: None
+INFO  2023-05-25 22:38:46,450 [17   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__Now_0='?' (DbType = DateTime), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."IsAbandoned", a."JobArgs", a."JobType", a."LastTryTime", a."NextTryTime", a."Priority", a."TryCount"
+FROM "AbpBackgroundJobs" AS a
+WHERE NOT (a."IsAbandoned") AND (a."NextTryTime" <= @__Now_0)
+ORDER BY a."Priority" DESC, a."TryCount", a."NextTryTime"
+LIMIT @__p_1
+INFO  2023-05-25 22:38:51,455 [25   ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.4 initialized 'MoneyKeeperDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.4+6cb649128e3e7aa8eddd77dfa75b34bad51e6e94' with options: None
+INFO  2023-05-25 22:38:51,456 [25   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__Now_0='?' (DbType = DateTime), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."IsAbandoned", a."JobArgs", a."JobType", a."LastTryTime", a."NextTryTime", a."Priority", a."TryCount"
+FROM "AbpBackgroundJobs" AS a
+WHERE NOT (a."IsAbandoned") AND (a."NextTryTime" <= @__Now_0)
+ORDER BY a."Priority" DESC, a."TryCount", a."NextTryTime"
+LIMIT @__p_1
+INFO  2023-05-25 22:38:56,474 [25   ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.4 initialized 'MoneyKeeperDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.4+6cb649128e3e7aa8eddd77dfa75b34bad51e6e94' with options: None
+INFO  2023-05-25 22:38:56,475 [25   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__Now_0='?' (DbType = DateTime), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."IsAbandoned", a."JobArgs", a."JobType", a."LastTryTime", a."NextTryTime", a."Priority", a."TryCount"
+FROM "AbpBackgroundJobs" AS a
+WHERE NOT (a."IsAbandoned") AND (a."NextTryTime" <= @__Now_0)
+ORDER BY a."Priority" DESC, a."TryCount", a."NextTryTime"
+LIMIT @__p_1
+INFO  2023-05-25 22:39:01,494 [25   ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.4 initialized 'MoneyKeeperDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.4+6cb649128e3e7aa8eddd77dfa75b34bad51e6e94' with options: None
+INFO  2023-05-25 22:39:01,496 [25   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__Now_0='?' (DbType = DateTime), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."IsAbandoned", a."JobArgs", a."JobType", a."LastTryTime", a."NextTryTime", a."Priority", a."TryCount"
+FROM "AbpBackgroundJobs" AS a
+WHERE NOT (a."IsAbandoned") AND (a."NextTryTime" <= @__Now_0)
+ORDER BY a."Priority" DESC, a."TryCount", a."NextTryTime"
+LIMIT @__p_1
+INFO  2023-05-25 22:39:06,509 [25   ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.4 initialized 'MoneyKeeperDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.4+6cb649128e3e7aa8eddd77dfa75b34bad51e6e94' with options: None
+INFO  2023-05-25 22:39:06,510 [25   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__Now_0='?' (DbType = DateTime), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."IsAbandoned", a."JobArgs", a."JobType", a."LastTryTime", a."NextTryTime", a."Priority", a."TryCount"
+FROM "AbpBackgroundJobs" AS a
+WHERE NOT (a."IsAbandoned") AND (a."NextTryTime" <= @__Now_0)
+ORDER BY a."Priority" DESC, a."TryCount", a."NextTryTime"
+LIMIT @__p_1
+INFO  2023-05-25 22:39:11,523 [7    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.4 initialized 'MoneyKeeperDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.4+6cb649128e3e7aa8eddd77dfa75b34bad51e6e94' with options: None
+INFO  2023-05-25 22:39:11,524 [7    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__Now_0='?' (DbType = DateTime), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."IsAbandoned", a."JobArgs", a."JobType", a."LastTryTime", a."NextTryTime", a."Priority", a."TryCount"
+FROM "AbpBackgroundJobs" AS a
+WHERE NOT (a."IsAbandoned") AND (a."NextTryTime" <= @__Now_0)
+ORDER BY a."Priority" DESC, a."TryCount", a."NextTryTime"
+LIMIT @__p_1
+INFO  2023-05-25 22:39:16,534 [31   ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.4 initialized 'MoneyKeeperDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.4+6cb649128e3e7aa8eddd77dfa75b34bad51e6e94' with options: None
+INFO  2023-05-25 22:39:16,536 [31   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__Now_0='?' (DbType = DateTime), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."IsAbandoned", a."JobArgs", a."JobType", a."LastTryTime", a."NextTryTime", a."Priority", a."TryCount"
+FROM "AbpBackgroundJobs" AS a
+WHERE NOT (a."IsAbandoned") AND (a."NextTryTime" <= @__Now_0)
+ORDER BY a."Priority" DESC, a."TryCount", a."NextTryTime"
+LIMIT @__p_1
+DEBUG 2023-05-25 22:39:22,384 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2023-05-25 22:39:22,398 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2023-05-25 22:39:22,418 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MoneyKeeper.Web.Host.Startup.MoneyKeeperWebHostModule, MoneyKeeper.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-05-25 22:39:22,421 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MoneyKeeper.MoneyKeeperWebCoreModule, MoneyKeeper.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-05-25 22:39:22,421 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MoneyKeeper.MoneyKeeperApplicationModule, MoneyKeeper.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-05-25 22:39:22,421 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MoneyKeeper.MoneyKeeperCoreModule, MoneyKeeper.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-05-25 22:39:22,422 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-05-25 22:39:22,422 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-05-25 22:39:22,422 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-05-25 22:39:22,422 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-05-25 22:39:22,423 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MoneyKeeper.EntityFrameworkCore.MoneyKeeperEntityFrameworkModule, MoneyKeeper.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-05-25 22:39:22,423 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-05-25 22:39:22,423 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-05-25 22:39:22,423 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-05-25 22:39:22,423 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-05-25 22:39:22,423 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-05-25 22:39:22,424 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-05-25 22:39:22,426 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2023-05-25 22:39:22,481 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2023-05-25 22:39:22,481 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2023-05-25 22:39:22,481 [1    ] o.Configuration.LanguageManagementConfig - Converted MoneyKeeper (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2023-05-25 22:39:22,481 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2023-05-25 22:39:22,867 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: MoneyKeeper.EntityFrameworkCore.MoneyKeeperDbContext, MoneyKeeper.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-05-25 22:39:23,083 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2023-05-25 22:39:23,131 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2023-05-25 22:39:23,149 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2023-05-25 22:39:23,158 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: MoneyKeeper
+DEBUG 2023-05-25 22:39:23,164 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2023-05-25 22:39:23,176 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2023-05-25 22:39:23,178 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[MoneyKeeper.MultiTenancy.Tenant, MoneyKeeper.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[MoneyKeeper.Authorization.Users.User, MoneyKeeper.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2023-05-25 22:39:23,222 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2023-05-25 22:39:23,222 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MoneyKeeper.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2023-05-25 22:39:23,229 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MoneyKeeper.Users.Dto.CreateUserDto
+DEBUG 2023-05-25 22:39:23,229 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MoneyKeeper.Users.Dto.UserDto
+DEBUG 2023-05-25 22:39:23,230 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MoneyKeeper.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2023-05-25 22:39:23,230 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MoneyKeeper.Sessions.Dto.UserLoginInfoDto
+DEBUG 2023-05-25 22:39:23,230 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MoneyKeeper.Roles.Dto.PermissionDto
+DEBUG 2023-05-25 22:39:23,230 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MoneyKeeper.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2023-05-25 22:39:23,230 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MoneyKeeper.MultiTenancy.Dto.TenantDto
+WARN  2023-05-25 22:39:24,797 [1    ] oft.EntityFrameworkCore.Model.Validation - Entity 'Edition' has a global query filter defined and is the required end of a relationship with the entity 'EditionFeatureSetting'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+INFO  2023-05-25 22:39:25,188 [1    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.4 initialized 'MoneyKeeperDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.4+6cb649128e3e7aa8eddd77dfa75b34bad51e6e94' with options: None
+INFO  2023-05-25 22:39:26,099 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (97ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."DeleterUserId", a."DeletionTime", a."DisplayName", a."IsDeleted", a."LastModificationTime", a."LastModifierUserId", a."Name"
+FROM "AbpEditions" AS a
+WHERE a."Name" = 'Standard'
+LIMIT 1
+INFO  2023-05-25 22:39:26,289 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (19ms) [Parameters=[@__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE ((a."TenantId" IS NULL)) AND (a."Name" = @__language_Name_1))
+INFO  2023-05-25 22:39:26,292 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE ((a."TenantId" IS NULL)) AND (a."Name" = @__language_Name_1))
+INFO  2023-05-25 22:39:26,293 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE ((a."TenantId" IS NULL)) AND (a."Name" = @__language_Name_1))
+INFO  2023-05-25 22:39:26,294 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE ((a."TenantId" IS NULL)) AND (a."Name" = @__language_Name_1))
+INFO  2023-05-25 22:39:26,295 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE ((a."TenantId" IS NULL)) AND (a."Name" = @__language_Name_1))
+INFO  2023-05-25 22:39:26,296 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE ((a."TenantId" IS NULL)) AND (a."Name" = @__language_Name_1))
+INFO  2023-05-25 22:39:26,296 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE ((a."TenantId" IS NULL)) AND (a."Name" = @__language_Name_1))
+INFO  2023-05-25 22:39:26,297 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE ((a."TenantId" IS NULL)) AND (a."Name" = @__language_Name_1))
+INFO  2023-05-25 22:39:26,298 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE ((a."TenantId" IS NULL)) AND (a."Name" = @__language_Name_1))
+INFO  2023-05-25 22:39:26,299 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE ((a."TenantId" IS NULL)) AND (a."Name" = @__language_Name_1))
+INFO  2023-05-25 22:39:26,300 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE ((a."TenantId" IS NULL)) AND (a."Name" = @__language_Name_1))
+INFO  2023-05-25 22:39:26,301 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE ((a."TenantId" IS NULL)) AND (a."Name" = @__language_Name_1))
+INFO  2023-05-25 22:39:26,302 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE ((a."TenantId" IS NULL)) AND (a."Name" = @__language_Name_1))
+INFO  2023-05-25 22:39:26,322 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."CreationTime", a."CreatorUserId", a."DeleterUserId", a."DeletionTime", a."Description", a."DisplayName", a."IsDefault", a."IsDeleted", a."IsStatic", a."LastModificationTime", a."LastModifierUserId", a."Name", a."NormalizedName", a."TenantId"
+FROM "AbpRoles" AS a
+WHERE ((a."TenantId" IS NULL)) AND (a."Name" = 'Admin')
+LIMIT 1
+INFO  2023-05-25 22:39:26,398 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (4ms) [Parameters=[@__adminRoleForHost_Id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Name"
+FROM "AbpPermissions" AS a
+WHERE (a."Discriminator" = 'RolePermissionSetting') AND (((a."TenantId" IS NULL)) AND (a."RoleId" = @__adminRoleForHost_Id_0))
+INFO  2023-05-25 22:39:26,412 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."AuthenticationSource", a."ConcurrencyStamp", a."CreationTime", a."CreatorUserId", a."DeleterUserId", a."DeletionTime", a."EmailAddress", a."EmailConfirmationCode", a."IsActive", a."IsDeleted", a."IsEmailConfirmed", a."IsLockoutEnabled", a."IsPhoneNumberConfirmed", a."IsTwoFactorEnabled", a."LastModificationTime", a."LastModifierUserId", a."LockoutEndDateUtc", a."Name", a."NormalizedEmailAddress", a."NormalizedUserName", a."Password", a."PasswordResetCode", a."PhoneNumber", a."SecurityStamp", a."Surname", a."TenantId", a."UserName"
+FROM "AbpUsers" AS a
+WHERE ((a."TenantId" IS NULL)) AND (a."UserName" = 'admin')
+LIMIT 1
+INFO  2023-05-25 22:39:26,525 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[@__name_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpSettings" AS a
+    WHERE ((a."Name" = @__name_0) AND ((a."TenantId" IS NULL))) AND ((a."UserId" IS NULL)))
+INFO  2023-05-25 22:39:26,526 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__name_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpSettings" AS a
+    WHERE ((a."Name" = @__name_0) AND ((a."TenantId" IS NULL))) AND ((a."UserId" IS NULL)))
+INFO  2023-05-25 22:39:26,527 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__name_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpSettings" AS a
+    WHERE ((a."Name" = @__name_0) AND ((a."TenantId" IS NULL))) AND ((a."UserId" IS NULL)))
+INFO  2023-05-25 22:39:26,608 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (8ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConnectionString", a."CreationTime", a."CreatorUserId", a."DeleterUserId", a."DeletionTime", a."EditionId", a."IsActive", a."IsDeleted", a."LastModificationTime", a."LastModifierUserId", a."Name", a."TenancyName"
+FROM "AbpTenants" AS a
+WHERE a."TenancyName" = 'Default'
+LIMIT 1
+INFO  2023-05-25 22:39:26,646 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@___tenantId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."CreationTime", a."CreatorUserId", a."DeleterUserId", a."DeletionTime", a."Description", a."DisplayName", a."IsDefault", a."IsDeleted", a."IsStatic", a."LastModificationTime", a."LastModifierUserId", a."Name", a."NormalizedName", a."TenantId"
+FROM "AbpRoles" AS a
+WHERE (a."TenantId" = @___tenantId_0) AND (a."Name" = 'Admin')
+LIMIT 1
+INFO  2023-05-25 22:39:26,650 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@___tenantId_0='?' (DbType = Int32), @__adminRole_Id_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Name"
+FROM "AbpPermissions" AS a
+WHERE (a."Discriminator" = 'RolePermissionSetting') AND ((a."TenantId" = @___tenantId_0) AND (a."RoleId" = @__adminRole_Id_1))
+INFO  2023-05-25 22:39:26,659 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@___tenantId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."AuthenticationSource", a."ConcurrencyStamp", a."CreationTime", a."CreatorUserId", a."DeleterUserId", a."DeletionTime", a."EmailAddress", a."EmailConfirmationCode", a."IsActive", a."IsDeleted", a."IsEmailConfirmed", a."IsLockoutEnabled", a."IsPhoneNumberConfirmed", a."IsTwoFactorEnabled", a."LastModificationTime", a."LastModifierUserId", a."LockoutEndDateUtc", a."Name", a."NormalizedEmailAddress", a."NormalizedUserName", a."Password", a."PasswordResetCode", a."PhoneNumber", a."SecurityStamp", a."Surname", a."TenantId", a."UserName"
+FROM "AbpUsers" AS a
+WHERE (a."TenantId" = @___tenantId_0) AND (a."UserName" = 'admin')
+LIMIT 1
+INFO  2023-05-25 22:39:26,716 [1    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.4 initialized 'MoneyKeeperDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.4+6cb649128e3e7aa8eddd77dfa75b34bad51e6e94' with options: None
+INFO  2023-05-25 22:39:26,752 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (3ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__ef_filter__p_1='?' (DbType = Boolean)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."DeleterUserId", a."DeletionTime", a."DisplayName", a."Icon", a."IsDeleted", a."IsDisabled", a."LastModificationTime", a."LastModifierUserId", a."Name", a."TenantId"
+FROM "AbpLanguages" AS a
+WHERE (@__ef_filter__p_0 OR NOT (a."IsDeleted")) AND (@__ef_filter__p_1 OR ((a."TenantId" IS NULL)))
+INFO  2023-05-25 22:39:26,882 [1    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.4 initialized 'MoneyKeeperDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.4+6cb649128e3e7aa8eddd77dfa75b34bad51e6e94' with options: None
+INFO  2023-05-25 22:39:26,899 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."LastModificationTime", a."LastModifierUserId", a."Name", a."TenantId", a."UserId", a."Value"
+FROM "AbpSettings" AS a
+WHERE (@__ef_filter__p_0 OR ((a."TenantId" IS NULL))) AND (((a."UserId" IS NULL)) AND ((a."TenantId" IS NULL)))
+INFO  2023-05-25 22:39:26,935 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,fa,ja,zh-Hans
+WARN  2023-05-25 22:39:27,213 [1    ] Microsoft.AspNetCore.Server.Kestrel      - Overriding address(es) 'https://localhost:44311/'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+INFO  2023-05-25 22:39:27,243 [1    ] Microsoft.Hosting.Lifetime               - Now listening on: https://localhost:44311
+INFO  2023-05-25 22:39:27,245 [1    ] Microsoft.Hosting.Lifetime               - Application started. Press Ctrl+C to shut down.
+INFO  2023-05-25 22:39:27,245 [1    ] Microsoft.Hosting.Lifetime               - Hosting environment: Development
+INFO  2023-05-25 22:39:27,245 [1    ] Microsoft.Hosting.Lifetime               - Content root path: G:\Sources\gittuanminh1007.finance-manager\backend\src\MoneyKeeper.Web.Host
+INFO  2023-05-25 22:39:28,191 [17   ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.4 initialized 'MoneyKeeperDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.4+6cb649128e3e7aa8eddd77dfa75b34bad51e6e94' with options: None
+INFO  2023-05-25 22:39:28,212 [17   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (6ms) [Parameters=[@__Now_0='?' (DbType = DateTime), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."IsAbandoned", a."JobArgs", a."JobType", a."LastTryTime", a."NextTryTime", a."Priority", a."TryCount"
+FROM "AbpBackgroundJobs" AS a
+WHERE NOT (a."IsAbandoned") AND (a."NextTryTime" <= @__Now_0)
+ORDER BY a."Priority" DESC, a."TryCount", a."NextTryTime"
+LIMIT @__p_1
+INFO  2023-05-25 22:39:33,221 [19   ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.4 initialized 'MoneyKeeperDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.4+6cb649128e3e7aa8eddd77dfa75b34bad51e6e94' with options: None
+INFO  2023-05-25 22:39:33,224 [19   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__Now_0='?' (DbType = DateTime), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."IsAbandoned", a."JobArgs", a."JobType", a."LastTryTime", a."NextTryTime", a."Priority", a."TryCount"
+FROM "AbpBackgroundJobs" AS a
+WHERE NOT (a."IsAbandoned") AND (a."NextTryTime" <= @__Now_0)
+ORDER BY a."Priority" DESC, a."TryCount", a."NextTryTime"
+LIMIT @__p_1
+INFO  2023-05-25 22:39:38,243 [19   ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.4 initialized 'MoneyKeeperDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.4+6cb649128e3e7aa8eddd77dfa75b34bad51e6e94' with options: None
+INFO  2023-05-25 22:39:38,244 [19   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__Now_0='?' (DbType = DateTime), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."IsAbandoned", a."JobArgs", a."JobType", a."LastTryTime", a."NextTryTime", a."Priority", a."TryCount"
+FROM "AbpBackgroundJobs" AS a
+WHERE NOT (a."IsAbandoned") AND (a."NextTryTime" <= @__Now_0)
+ORDER BY a."Priority" DESC, a."TryCount", a."NextTryTime"
+LIMIT @__p_1
+INFO  2023-05-25 22:39:43,260 [19   ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.4 initialized 'MoneyKeeperDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.4+6cb649128e3e7aa8eddd77dfa75b34bad51e6e94' with options: None
+INFO  2023-05-25 22:39:43,262 [19   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__Now_0='?' (DbType = DateTime), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."IsAbandoned", a."JobArgs", a."JobType", a."LastTryTime", a."NextTryTime", a."Priority", a."TryCount"
+FROM "AbpBackgroundJobs" AS a
+WHERE NOT (a."IsAbandoned") AND (a."NextTryTime" <= @__Now_0)
+ORDER BY a."Priority" DESC, a."TryCount", a."NextTryTime"
+LIMIT @__p_1
+INFO  2023-05-25 22:39:48,278 [17   ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.4 initialized 'MoneyKeeperDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.4+6cb649128e3e7aa8eddd77dfa75b34bad51e6e94' with options: None
+INFO  2023-05-25 22:39:48,280 [17   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__Now_0='?' (DbType = DateTime), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."IsAbandoned", a."JobArgs", a."JobType", a."LastTryTime", a."NextTryTime", a."Priority", a."TryCount"
+FROM "AbpBackgroundJobs" AS a
+WHERE NOT (a."IsAbandoned") AND (a."NextTryTime" <= @__Now_0)
+ORDER BY a."Priority" DESC, a."TryCount", a."NextTryTime"
+LIMIT @__p_1
+INFO  2023-05-25 22:39:53,291 [19   ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.4 initialized 'MoneyKeeperDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.4+6cb649128e3e7aa8eddd77dfa75b34bad51e6e94' with options: None
+INFO  2023-05-25 22:39:53,293 [19   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__Now_0='?' (DbType = DateTime), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."IsAbandoned", a."JobArgs", a."JobType", a."LastTryTime", a."NextTryTime", a."Priority", a."TryCount"
+FROM "AbpBackgroundJobs" AS a
+WHERE NOT (a."IsAbandoned") AND (a."NextTryTime" <= @__Now_0)
+ORDER BY a."Priority" DESC, a."TryCount", a."NextTryTime"
+LIMIT @__p_1
+INFO  2023-05-25 22:39:58,303 [19   ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.4 initialized 'MoneyKeeperDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.4+6cb649128e3e7aa8eddd77dfa75b34bad51e6e94' with options: None
+INFO  2023-05-25 22:39:58,304 [19   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__Now_0='?' (DbType = DateTime), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."IsAbandoned", a."JobArgs", a."JobType", a."LastTryTime", a."NextTryTime", a."Priority", a."TryCount"
+FROM "AbpBackgroundJobs" AS a
+WHERE NOT (a."IsAbandoned") AND (a."NextTryTime" <= @__Now_0)
+ORDER BY a."Priority" DESC, a."TryCount", a."NextTryTime"
+LIMIT @__p_1
+INFO  2023-05-25 22:40:03,320 [19   ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.4 initialized 'MoneyKeeperDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.4+6cb649128e3e7aa8eddd77dfa75b34bad51e6e94' with options: None
+INFO  2023-05-25 22:40:03,329 [19   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__Now_0='?' (DbType = DateTime), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."IsAbandoned", a."JobArgs", a."JobType", a."LastTryTime", a."NextTryTime", a."Priority", a."TryCount"
+FROM "AbpBackgroundJobs" AS a
+WHERE NOT (a."IsAbandoned") AND (a."NextTryTime" <= @__Now_0)
+ORDER BY a."Priority" DESC, a."TryCount", a."NextTryTime"
+LIMIT @__p_1
+INFO  2023-05-25 22:40:08,336 [17   ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.4 initialized 'MoneyKeeperDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.4+6cb649128e3e7aa8eddd77dfa75b34bad51e6e94' with options: None
+INFO  2023-05-25 22:40:08,339 [17   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__Now_0='?' (DbType = DateTime), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."IsAbandoned", a."JobArgs", a."JobType", a."LastTryTime", a."NextTryTime", a."Priority", a."TryCount"
+FROM "AbpBackgroundJobs" AS a
+WHERE NOT (a."IsAbandoned") AND (a."NextTryTime" <= @__Now_0)
+ORDER BY a."Priority" DESC, a."TryCount", a."NextTryTime"
+LIMIT @__p_1
+INFO  2023-05-25 22:40:13,344 [17   ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.4 initialized 'MoneyKeeperDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.4+6cb649128e3e7aa8eddd77dfa75b34bad51e6e94' with options: None
+INFO  2023-05-25 22:40:13,345 [17   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__Now_0='?' (DbType = DateTime), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."IsAbandoned", a."JobArgs", a."JobType", a."LastTryTime", a."NextTryTime", a."Priority", a."TryCount"
+FROM "AbpBackgroundJobs" AS a
+WHERE NOT (a."IsAbandoned") AND (a."NextTryTime" <= @__Now_0)
+ORDER BY a."Priority" DESC, a."TryCount", a."NextTryTime"
+LIMIT @__p_1
+INFO  2023-05-25 22:40:18,350 [19   ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.4 initialized 'MoneyKeeperDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.4+6cb649128e3e7aa8eddd77dfa75b34bad51e6e94' with options: None
+INFO  2023-05-25 22:40:18,351 [19   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__Now_0='?' (DbType = DateTime), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."IsAbandoned", a."JobArgs", a."JobType", a."LastTryTime", a."NextTryTime", a."Priority", a."TryCount"
+FROM "AbpBackgroundJobs" AS a
+WHERE NOT (a."IsAbandoned") AND (a."NextTryTime" <= @__Now_0)
+ORDER BY a."Priority" DESC, a."TryCount", a."NextTryTime"
+LIMIT @__p_1
+INFO  2023-05-25 22:40:23,362 [9    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.4 initialized 'MoneyKeeperDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.4+6cb649128e3e7aa8eddd77dfa75b34bad51e6e94' with options: None
+INFO  2023-05-25 22:40:23,363 [9    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__Now_0='?' (DbType = DateTime), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."IsAbandoned", a."JobArgs", a."JobType", a."LastTryTime", a."NextTryTime", a."Priority", a."TryCount"
+FROM "AbpBackgroundJobs" AS a
+WHERE NOT (a."IsAbandoned") AND (a."NextTryTime" <= @__Now_0)
+ORDER BY a."Priority" DESC, a."TryCount", a."NextTryTime"
+LIMIT @__p_1
+INFO  2023-05-25 22:40:28,388 [9    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.4 initialized 'MoneyKeeperDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.4+6cb649128e3e7aa8eddd77dfa75b34bad51e6e94' with options: None
+INFO  2023-05-25 22:40:28,389 [9    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__Now_0='?' (DbType = DateTime), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."IsAbandoned", a."JobArgs", a."JobType", a."LastTryTime", a."NextTryTime", a."Priority", a."TryCount"
+FROM "AbpBackgroundJobs" AS a
+WHERE NOT (a."IsAbandoned") AND (a."NextTryTime" <= @__Now_0)
+ORDER BY a."Priority" DESC, a."TryCount", a."NextTryTime"
+LIMIT @__p_1
+INFO  2023-05-25 22:40:33,400 [9    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.4 initialized 'MoneyKeeperDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.4+6cb649128e3e7aa8eddd77dfa75b34bad51e6e94' with options: None
+INFO  2023-05-25 22:40:33,401 [9    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__Now_0='?' (DbType = DateTime), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."IsAbandoned", a."JobArgs", a."JobType", a."LastTryTime", a."NextTryTime", a."Priority", a."TryCount"
+FROM "AbpBackgroundJobs" AS a
+WHERE NOT (a."IsAbandoned") AND (a."NextTryTime" <= @__Now_0)
+ORDER BY a."Priority" DESC, a."TryCount", a."NextTryTime"
+LIMIT @__p_1
+INFO  2023-05-25 22:40:38,411 [19   ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.4 initialized 'MoneyKeeperDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.4+6cb649128e3e7aa8eddd77dfa75b34bad51e6e94' with options: None
+INFO  2023-05-25 22:40:38,413 [19   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__Now_0='?' (DbType = DateTime), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."IsAbandoned", a."JobArgs", a."JobType", a."LastTryTime", a."NextTryTime", a."Priority", a."TryCount"
+FROM "AbpBackgroundJobs" AS a
+WHERE NOT (a."IsAbandoned") AND (a."NextTryTime" <= @__Now_0)
+ORDER BY a."Priority" DESC, a."TryCount", a."NextTryTime"
+LIMIT @__p_1
+INFO  2023-05-25 22:40:43,415 [9    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.4 initialized 'MoneyKeeperDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.4+6cb649128e3e7aa8eddd77dfa75b34bad51e6e94' with options: None
+INFO  2023-05-25 22:40:43,417 [9    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__Now_0='?' (DbType = DateTime), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."IsAbandoned", a."JobArgs", a."JobType", a."LastTryTime", a."NextTryTime", a."Priority", a."TryCount"
+FROM "AbpBackgroundJobs" AS a
+WHERE NOT (a."IsAbandoned") AND (a."NextTryTime" <= @__Now_0)
+ORDER BY a."Priority" DESC, a."TryCount", a."NextTryTime"
+LIMIT @__p_1
+INFO  2023-05-25 22:40:48,431 [19   ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.4 initialized 'MoneyKeeperDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.4+6cb649128e3e7aa8eddd77dfa75b34bad51e6e94' with options: None
+INFO  2023-05-25 22:40:48,432 [19   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__Now_0='?' (DbType = DateTime), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."IsAbandoned", a."JobArgs", a."JobType", a."LastTryTime", a."NextTryTime", a."Priority", a."TryCount"
+FROM "AbpBackgroundJobs" AS a
+WHERE NOT (a."IsAbandoned") AND (a."NextTryTime" <= @__Now_0)
+ORDER BY a."Priority" DESC, a."TryCount", a."NextTryTime"
+LIMIT @__p_1
+INFO  2023-05-25 22:40:53,439 [9    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.4 initialized 'MoneyKeeperDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.4+6cb649128e3e7aa8eddd77dfa75b34bad51e6e94' with options: None
+INFO  2023-05-25 22:40:53,441 [9    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__Now_0='?' (DbType = DateTime), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."IsAbandoned", a."JobArgs", a."JobType", a."LastTryTime", a."NextTryTime", a."Priority", a."TryCount"
+FROM "AbpBackgroundJobs" AS a
+WHERE NOT (a."IsAbandoned") AND (a."NextTryTime" <= @__Now_0)
+ORDER BY a."Priority" DESC, a."TryCount", a."NextTryTime"
+LIMIT @__p_1
+INFO  2023-05-25 22:40:58,454 [9    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.4 initialized 'MoneyKeeperDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.4+6cb649128e3e7aa8eddd77dfa75b34bad51e6e94' with options: None
+INFO  2023-05-25 22:40:58,456 [9    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__Now_0='?' (DbType = DateTime), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."IsAbandoned", a."JobArgs", a."JobType", a."LastTryTime", a."NextTryTime", a."Priority", a."TryCount"
+FROM "AbpBackgroundJobs" AS a
+WHERE NOT (a."IsAbandoned") AND (a."NextTryTime" <= @__Now_0)
+ORDER BY a."Priority" DESC, a."TryCount", a."NextTryTime"
+LIMIT @__p_1
+INFO  2023-05-25 22:41:03,465 [19   ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.4 initialized 'MoneyKeeperDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.4+6cb649128e3e7aa8eddd77dfa75b34bad51e6e94' with options: None
+INFO  2023-05-25 22:41:03,466 [19   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__Now_0='?' (DbType = DateTime), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."IsAbandoned", a."JobArgs", a."JobType", a."LastTryTime", a."NextTryTime", a."Priority", a."TryCount"
+FROM "AbpBackgroundJobs" AS a
+WHERE NOT (a."IsAbandoned") AND (a."NextTryTime" <= @__Now_0)
+ORDER BY a."Priority" DESC, a."TryCount", a."NextTryTime"
+LIMIT @__p_1
+INFO  2023-05-25 22:41:08,472 [9    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.4 initialized 'MoneyKeeperDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.4+6cb649128e3e7aa8eddd77dfa75b34bad51e6e94' with options: None
+INFO  2023-05-25 22:41:08,473 [9    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__Now_0='?' (DbType = DateTime), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."IsAbandoned", a."JobArgs", a."JobType", a."LastTryTime", a."NextTryTime", a."Priority", a."TryCount"
+FROM "AbpBackgroundJobs" AS a
+WHERE NOT (a."IsAbandoned") AND (a."NextTryTime" <= @__Now_0)
+ORDER BY a."Priority" DESC, a."TryCount", a."NextTryTime"
+LIMIT @__p_1
+INFO  2023-05-25 22:41:13,480 [19   ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.4 initialized 'MoneyKeeperDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.4+6cb649128e3e7aa8eddd77dfa75b34bad51e6e94' with options: None
+INFO  2023-05-25 22:41:13,481 [19   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__Now_0='?' (DbType = DateTime), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."IsAbandoned", a."JobArgs", a."JobType", a."LastTryTime", a."NextTryTime", a."Priority", a."TryCount"
+FROM "AbpBackgroundJobs" AS a
+WHERE NOT (a."IsAbandoned") AND (a."NextTryTime" <= @__Now_0)
+ORDER BY a."Priority" DESC, a."TryCount", a."NextTryTime"
+LIMIT @__p_1
+INFO  2023-05-25 22:41:18,500 [9    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.4 initialized 'MoneyKeeperDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.4+6cb649128e3e7aa8eddd77dfa75b34bad51e6e94' with options: None
+INFO  2023-05-25 22:41:18,502 [9    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__Now_0='?' (DbType = DateTime), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."IsAbandoned", a."JobArgs", a."JobType", a."LastTryTime", a."NextTryTime", a."Priority", a."TryCount"
+FROM "AbpBackgroundJobs" AS a
+WHERE NOT (a."IsAbandoned") AND (a."NextTryTime" <= @__Now_0)
+ORDER BY a."Priority" DESC, a."TryCount", a."NextTryTime"
+LIMIT @__p_1
+INFO  2023-05-25 22:41:23,503 [9    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.4 initialized 'MoneyKeeperDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.4+6cb649128e3e7aa8eddd77dfa75b34bad51e6e94' with options: None
+INFO  2023-05-25 22:41:23,504 [9    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__Now_0='?' (DbType = DateTime), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."IsAbandoned", a."JobArgs", a."JobType", a."LastTryTime", a."NextTryTime", a."Priority", a."TryCount"
+FROM "AbpBackgroundJobs" AS a
+WHERE NOT (a."IsAbandoned") AND (a."NextTryTime" <= @__Now_0)
+ORDER BY a."Priority" DESC, a."TryCount", a."NextTryTime"
+LIMIT @__p_1
+INFO  2023-05-25 22:41:28,509 [9    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.4 initialized 'MoneyKeeperDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.4+6cb649128e3e7aa8eddd77dfa75b34bad51e6e94' with options: None
+INFO  2023-05-25 22:41:28,511 [9    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__Now_0='?' (DbType = DateTime), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."IsAbandoned", a."JobArgs", a."JobType", a."LastTryTime", a."NextTryTime", a."Priority", a."TryCount"
+FROM "AbpBackgroundJobs" AS a
+WHERE NOT (a."IsAbandoned") AND (a."NextTryTime" <= @__Now_0)
+ORDER BY a."Priority" DESC, a."TryCount", a."NextTryTime"
+LIMIT @__p_1
+INFO  2023-05-25 22:41:33,533 [9    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.4 initialized 'MoneyKeeperDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.4+6cb649128e3e7aa8eddd77dfa75b34bad51e6e94' with options: None
+INFO  2023-05-25 22:41:33,534 [9    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__Now_0='?' (DbType = DateTime), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."IsAbandoned", a."JobArgs", a."JobType", a."LastTryTime", a."NextTryTime", a."Priority", a."TryCount"
+FROM "AbpBackgroundJobs" AS a
+WHERE NOT (a."IsAbandoned") AND (a."NextTryTime" <= @__Now_0)
+ORDER BY a."Priority" DESC, a."TryCount", a."NextTryTime"
+LIMIT @__p_1
+INFO  2023-05-25 22:41:38,546 [19   ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.4 initialized 'MoneyKeeperDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.4+6cb649128e3e7aa8eddd77dfa75b34bad51e6e94' with options: None
+INFO  2023-05-25 22:41:38,548 [19   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__Now_0='?' (DbType = DateTime), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."IsAbandoned", a."JobArgs", a."JobType", a."LastTryTime", a."NextTryTime", a."Priority", a."TryCount"
+FROM "AbpBackgroundJobs" AS a
+WHERE NOT (a."IsAbandoned") AND (a."NextTryTime" <= @__Now_0)
+ORDER BY a."Priority" DESC, a."TryCount", a."NextTryTime"
+LIMIT @__p_1
