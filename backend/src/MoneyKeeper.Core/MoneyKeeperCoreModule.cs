@@ -28,9 +28,6 @@ namespace MoneyKeeper
 
             MoneyKeeperLocalizationConfigurer.Configure(Configuration.Localization);
 
-            // Enable this line to create a multi-tenant application.
-            Configuration.MultiTenancy.IsEnabled = MoneyKeeperConsts.MultiTenancyEnabled;
-
             // Configure roles
             AppRoleConfig.Configure(Configuration.Modules.Zero().RoleManagement);
 

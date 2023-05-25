@@ -6,10 +6,7 @@ namespace MoneyKeeper.Tests
     {
         public MultiTenantFactAttribute()
         {
-            if (!MoneyKeeperConsts.MultiTenancyEnabled)
-            {
-                Skip = "MultiTenancy is disabled.";
-            }
+             Skip = "MultiTenancy is disabled.";
         }
     }
 }

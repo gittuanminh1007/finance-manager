@@ -2,7 +2,6 @@
 using Microsoft.EntityFrameworkCore;
 using Abp.Configuration;
 using Abp.Localization;
-using Abp.MultiTenancy;
 using Abp.Net.Mail;
 
 namespace MoneyKeeper.EntityFrameworkCore.Seed.Host
@@ -18,19 +17,12 @@ namespace MoneyKeeper.EntityFrameworkCore.Seed.Host
 
         public void Create()
         {
-            int? tenantId = null;
-
-            if (MoneyKeeperConsts.MultiTenancyEnabled == false)
-            {
-                tenantId = MultiTenancyConsts.DefaultTenantId;
-            }
-
             // Emailing
-            AddSettingIfNotExists(EmailSettingNames.DefaultFromAddress, "admin@mydomain.com", tenantId);
-            AddSettingIfNotExists(EmailSettingNames.DefaultFromDisplayName, "mydomain.com mailer", tenantId);
+            AddSettingIfNotExists(EmailSettingNames.DefaultFromAddress, "admin@mydomain.com", null);
+            AddSettingIfNotExists(EmailSettingNames.DefaultFromDisplayName, "mydomain.com mailer", null);
 
             // Languages
-            AddSettingIfNotExists(LocalizationSettingNames.DefaultLanguage, "en", tenantId);
+            AddSettingIfNotExists(LocalizationSettingNames.DefaultLanguage, "en", null);
         }
 
         private void AddSettingIfNotExists(string name, string value, int? tenantId = null)
