@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Transactions;
-using Microsoft.EntityFrameworkCore;
 using Abp.Dependency;
 using Abp.Domain.Uow;
 using Abp.EntityFrameworkCore.Uow;
 using Abp.MultiTenancy;
+using Microsoft.EntityFrameworkCore;
 using MoneyKeeper.EntityFrameworkCore.Seed.Host;
 using MoneyKeeper.EntityFrameworkCore.Seed.Tenants;
 

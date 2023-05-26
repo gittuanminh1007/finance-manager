@@ -7,7 +7,7 @@ using MoneyKeeper.EntityFrameworkCore.Seed;
 namespace MoneyKeeper.EntityFrameworkCore
 {
     [DependsOn(
-        typeof(MoneyKeeperCoreModule), 
+        typeof(MoneyKeeperCoreModule),
         typeof(AbpZeroCoreEntityFrameworkCoreModule))]
     public class MoneyKeeperEntityFrameworkModule : AbpModule
     {

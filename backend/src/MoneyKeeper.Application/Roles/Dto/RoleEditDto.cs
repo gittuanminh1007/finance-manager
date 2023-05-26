@@ -5,7 +5,7 @@ using MoneyKeeper.Authorization.Roles;
 
 namespace MoneyKeeper.Roles.Dto
 {
-    public class RoleEditDto: EntityDto<int>
+    public class RoleEditDto : EntityDto<int>
     {
         [Required]
         [StringLength(AbpRoleBase.MaxNameLength)]

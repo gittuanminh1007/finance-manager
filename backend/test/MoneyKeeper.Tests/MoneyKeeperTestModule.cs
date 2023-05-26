@@ -1,16 +1,16 @@
 using System;
-using Castle.MicroKernel.Registration;
-using NSubstitute;
 using Abp.AutoMapper;
+using Abp.Configuration.Startup;
 using Abp.Dependency;
 using Abp.Modules;
-using Abp.Configuration.Startup;
 using Abp.Net.Mail;
 using Abp.TestBase;
 using Abp.Zero.Configuration;
 using Abp.Zero.EntityFrameworkCore;
+using Castle.MicroKernel.Registration;
 using MoneyKeeper.EntityFrameworkCore;
 using MoneyKeeper.Tests.DependencyInjection;
+using NSubstitute;
 
 namespace MoneyKeeper.Tests
 {

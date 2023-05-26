@@ -1,18 +1,18 @@
 ﻿using System;
 using System.Text;
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.Extensions.Configuration;
-using Microsoft.IdentityModel.Tokens;
 using Abp.AspNetCore;
 using Abp.AspNetCore.Configuration;
 using Abp.AspNetCore.SignalR;
 using Abp.Modules;
 using Abp.Reflection.Extensions;
 using Abp.Zero.Configuration;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Mvc.ApplicationParts;
+using Microsoft.Extensions.Configuration;
+using Microsoft.IdentityModel.Tokens;
 using MoneyKeeper.Authentication.JwtBearer;
 using MoneyKeeper.Configuration;
 using MoneyKeeper.EntityFrameworkCore;
-using Microsoft.AspNetCore.Mvc.ApplicationParts;
 
 namespace MoneyKeeper
 {
@@ -20,7 +20,7 @@ namespace MoneyKeeper
          typeof(MoneyKeeperApplicationModule),
          typeof(MoneyKeeperEntityFrameworkModule),
          typeof(AbpAspNetCoreModule)
-        ,typeof(AbpAspNetCoreSignalRModule)
+        , typeof(AbpAspNetCoreSignalRModule)
      )]
     public class MoneyKeeperWebCoreModule : AbpModule
     {

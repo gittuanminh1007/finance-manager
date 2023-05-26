@@ -12,7 +12,7 @@ namespace MoneyKeeper.EntityFrameworkCore
         public MoneyKeeperDbContext CreateDbContext(string[] args)
         {
             var builder = new DbContextOptionsBuilder<MoneyKeeperDbContext>();
-            
+
             /*
              You can provide an environmentName parameter to the AppConfigurations.Get method. 
              In this case, AppConfigurations will try to read appsettings.{environmentName}.json.

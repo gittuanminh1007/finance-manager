@@ -1,14 +1,14 @@
-﻿using Microsoft.AspNetCore.Hosting;
-using Microsoft.Extensions.Configuration;
-using Abp.Modules;
+﻿using Abp.Modules;
 using Abp.Reflection.Extensions;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.Extensions.Configuration;
 using MoneyKeeper.Configuration;
 
 namespace MoneyKeeper.Web.Host.Startup
 {
     [DependsOn(
        typeof(MoneyKeeperWebCoreModule))]
-    public class MoneyKeeperWebHostModule: AbpModule
+    public class MoneyKeeperWebHostModule : AbpModule
     {
         private readonly IWebHostEnvironment _env;
         private readonly IConfigurationRoot _appConfiguration;

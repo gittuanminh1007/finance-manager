@@ -1,6 +1,6 @@
 ﻿using System.Linq;
-using Microsoft.EntityFrameworkCore;
 using Abp.MultiTenancy;
+using Microsoft.EntityFrameworkCore;
 using MoneyKeeper.MultiTenancy;
 
 namespace MoneyKeeper.EntityFrameworkCore.Seed.Tenants

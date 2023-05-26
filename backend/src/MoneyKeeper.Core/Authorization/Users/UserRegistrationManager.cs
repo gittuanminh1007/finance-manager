@@ -2,13 +2,12 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Identity;
-using Microsoft.EntityFrameworkCore;
 using Abp.Authorization.Users;
 using Abp.Domain.Services;
 using Abp.IdentityFramework;
 using Abp.Runtime.Session;
-using Abp.UI;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 using MoneyKeeper.Authorization.Roles;
 using MoneyKeeper.MultiTenancy;
 
@@ -46,7 +45,7 @@ namespace MoneyKeeper.Authorization.Users
             };
 
             user.SetNormalizedNames();
-           
+
             foreach (var defaultRole in await _roleManager.Roles.Where(r => r.IsDefault).ToListAsync())
             {
                 user.Roles.Add(new UserRole(Tenant.DefaultTenantId, user.Id, defaultRole.Id));

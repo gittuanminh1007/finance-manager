@@ -1,11 +1,11 @@
 ﻿using System.Linq;
-using Microsoft.AspNetCore.Identity;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Options;
 using Abp.Authorization;
 using Abp.Authorization.Roles;
 using Abp.Authorization.Users;
 using Abp.MultiTenancy;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Options;
 using MoneyKeeper.Authorization;
 using MoneyKeeper.Authorization.Roles;
 using MoneyKeeper.Authorization.Users;

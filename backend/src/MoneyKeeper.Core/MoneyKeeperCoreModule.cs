@@ -1,8 +1,6 @@
-﻿using Abp.Localization;
-using Abp.Modules;
+﻿using Abp.Modules;
 using Abp.Reflection.Extensions;
 using Abp.Runtime.Security;
-using Abp.Timing;
 using Abp.Zero;
 using Abp.Zero.Configuration;
 using MoneyKeeper.Authorization.Roles;
@@ -31,7 +29,7 @@ namespace MoneyKeeper
             AppRoleConfig.Configure(Configuration.Modules.Zero().RoleManagement);
 
             Configuration.Settings.Providers.Add<AppSettingProvider>();
-            
+
             Configuration.Settings.SettingEncryptionConfiguration.DefaultPassPhrase = MoneyKeeperConsts.DefaultPassPhrase;
             SimpleStringCipher.DefaultPassPhrase = MoneyKeeperConsts.DefaultPassPhrase;
         }

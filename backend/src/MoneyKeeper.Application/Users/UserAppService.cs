@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using Abp.Application.Services;
 using Abp.Application.Services.Dto;
@@ -14,13 +13,13 @@ using Abp.Linq.Extensions;
 using Abp.Localization;
 using Abp.Runtime.Session;
 using Abp.UI;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 using MoneyKeeper.Authorization;
 using MoneyKeeper.Authorization.Roles;
 using MoneyKeeper.Authorization.Users;
 using MoneyKeeper.Roles.Dto;
 using MoneyKeeper.Users.Dto;
-using Microsoft.AspNetCore.Identity;
-using Microsoft.EntityFrameworkCore;
 
 namespace MoneyKeeper.Users
 {
@@ -177,7 +176,7 @@ namespace MoneyKeeper.Users
             {
                 throw new Exception("There is no current user!");
             }
-            
+
             if (await _userManager.CheckPasswordAsync(user, input.CurrentPassword))
             {
                 CheckErrors(await _userManager.ChangePasswordAsync(user, input.NewPassword));
@@ -199,19 +198,19 @@ namespace MoneyKeeper.Users
             {
                 throw new UserFriendlyException("Please log in before attempting to reset password.");
             }
-            
+
             var currentUser = await _userManager.GetUserByIdAsync(_abpSession.GetUserId());
             var loginAsync = await _logInManager.LoginAsync(currentUser.UserName, input.AdminPassword, shouldLockout: false);
             if (loginAsync.Result != AbpLoginResultType.Success)
             {
                 throw new UserFriendlyException("Your 'Admin Password' did not match the one on record.  Please try again.");
             }
-            
+
             if (currentUser.IsDeleted || !currentUser.IsActive)
             {
                 return false;
             }
-            
+
             var roles = await _userManager.GetRolesAsync(currentUser);
             if (!roles.Contains(StaticRoleNames.Tenants.Admin))
             {

@@ -8,7 +8,7 @@ using MoneyKeeper.Authorization.Users;
 
 namespace MoneyKeeper.Controllers
 {
-    public abstract class MoneyKeeperControllerBase: AbpController
+    public abstract class MoneyKeeperControllerBase : AbpController
     {
         public UserManager UserManager { get; set; }
 

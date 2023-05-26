@@ -8,7 +8,7 @@ namespace MoneyKeeper.MultiTenancy
         public const int DefaultTenantId = 1;
 
         public Tenant()
-        {            
+        {
         }
 
         public Tenant(string tenancyName, string name)

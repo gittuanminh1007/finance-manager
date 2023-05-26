@@ -1,12 +1,12 @@
-﻿using Microsoft.AspNetCore.Authentication;
+﻿using Abp.Authorization;
+using Abp.Domain.Uow;
+using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
-using Abp.Authorization;
 using MoneyKeeper.Authorization.Roles;
 using MoneyKeeper.Authorization.Users;
 using MoneyKeeper.MultiTenancy;
-using Microsoft.Extensions.Logging;
-using Abp.Domain.Uow;
 
 namespace MoneyKeeper.Identity
 {

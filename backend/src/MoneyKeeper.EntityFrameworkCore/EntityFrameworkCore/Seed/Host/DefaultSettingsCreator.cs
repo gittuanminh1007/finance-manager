@@ -1,8 +1,7 @@
 ﻿using System.Linq;
-using Microsoft.EntityFrameworkCore;
 using Abp.Configuration;
 using Abp.Localization;
-using Abp.Net.Mail;
+using Microsoft.EntityFrameworkCore;
 
 namespace MoneyKeeper.EntityFrameworkCore.Seed.Host
 {

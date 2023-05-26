@@ -1,10 +1,9 @@
 ﻿using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
-using Shouldly;
-using Xunit;
-using Abp.Application.Services.Dto;
 using MoneyKeeper.Users;
 using MoneyKeeper.Users.Dto;
+using Shouldly;
+using Xunit;
 
 namespace MoneyKeeper.Tests.Users
 {
@@ -21,7 +20,7 @@ namespace MoneyKeeper.Tests.Users
         public async Task GetUsers_Test()
         {
             // Act
-            var output = await _userAppService.GetAllAsync(new PagedUserResultRequestDto{MaxResultCount=20, SkipCount=0} );
+            var output = await _userAppService.GetAllAsync(new PagedUserResultRequestDto { MaxResultCount = 20, SkipCount = 0 });
 
             // Assert
             output.Items.Count.ShouldBeGreaterThan(0);

@@ -8,12 +8,12 @@ using Abp.Domain.Repositories;
 using Abp.Extensions;
 using Abp.IdentityFramework;
 using Abp.Linq.Extensions;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 using MoneyKeeper.Authorization;
 using MoneyKeeper.Authorization.Roles;
 using MoneyKeeper.Authorization.Users;
 using MoneyKeeper.Roles.Dto;
-using Microsoft.AspNetCore.Identity;
-using Microsoft.EntityFrameworkCore;
 
 namespace MoneyKeeper.Roles
 {

@@ -1,25 +1,25 @@
 ﻿using System;
+using System.IO;
 using System.Linq;
 using System.Reflection;
+using Abp.AspNetCore;
+using Abp.AspNetCore.Mvc.Antiforgery;
+using Abp.AspNetCore.SignalR.Hubs;
+using Abp.Castle.Logging.Log4Net;
+using Abp.Dependency;
+using Abp.Extensions;
+using Abp.Json;
+using Castle.Facilities.Logging;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
-using Castle.Facilities.Logging;
-using Abp.AspNetCore;
-using Abp.AspNetCore.Mvc.Antiforgery;
-using Abp.Castle.Logging.Log4Net;
-using Abp.Extensions;
+using Microsoft.OpenApi.Models;
 using MoneyKeeper.Configuration;
 using MoneyKeeper.Identity;
-using Abp.AspNetCore.SignalR.Hubs;
-using Abp.Dependency;
-using Abp.Json;
-using Microsoft.Extensions.Hosting;
-using Microsoft.OpenApi.Models;
 using Newtonsoft.Json.Serialization;
-using System.IO;
 
 namespace MoneyKeeper.Web.Host.Startup
 {
@@ -124,7 +124,7 @@ namespace MoneyKeeper.Web.Host.Startup
                 options.DisplayRequestDuration(); // Controls the display of the request duration (in milliseconds) for "Try it out" requests.  
             }); // URL: /swagger
         }
-        
+
         private void ConfigureSwagger(IServiceCollection services)
         {
             services.AddSwaggerGen(options =>

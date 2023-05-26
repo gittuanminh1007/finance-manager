@@ -6,7 +6,7 @@ using MoneyKeeper.Authorization;
 namespace MoneyKeeper
 {
     [DependsOn(
-        typeof(MoneyKeeperCoreModule), 
+        typeof(MoneyKeeperCoreModule),
         typeof(AbpAutoMapperModule))]
     public class MoneyKeeperApplicationModule : AbpModule
     {

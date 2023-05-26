@@ -1,8 +1,6 @@
-using System.Threading.Tasks;
 using Abp.Web.Security.AntiForgery;
 using Microsoft.AspNetCore.Antiforgery;
 using MoneyKeeper.Controllers;
-using Microsoft.AspNetCore.Mvc;
 
 namespace MoneyKeeper.Web.Host.Controllers
 {
