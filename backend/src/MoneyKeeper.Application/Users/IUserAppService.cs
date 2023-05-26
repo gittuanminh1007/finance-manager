@@ -1,0 +1,16 @@
+using System.Threading.Tasks;
+using Abp.Application.Services;
+using Abp.Application.Services.Dto;
+using MoneyKeeper.Roles.Dto;
+using MoneyKeeper.Users.Dto;
+
+namespace MoneyKeeper.Users
+{
+    public interface IUserAppService : IAsyncCrudAppService<UserDto, long, PagedUserResultRequestDto, CreateUserDto, UserDto>
+    {
+        Task<ListResultDto<RoleDto>> GetRoles();
+        Task ChangeLanguage(ChangeUserLanguageDto input);
+
+        Task<bool> ChangePassword(ChangePasswordDto input);
+    }
+}
