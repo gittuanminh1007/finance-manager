@@ -5,7 +5,6 @@ using Abp.Application.Services;
 using Abp.IdentityFramework;
 using Abp.Runtime.Session;
 using MoneyKeeper.Authorization.Users;
-using MoneyKeeper.MultiTenancy;
 
 namespace MoneyKeeper
 {
@@ -24,11 +23,7 @@ namespace MoneyKeeper
         protected virtual async Task<User> GetCurrentUserAsync()
         {
             var user = await UserManager.FindByIdAsync(AbpSession.GetUserId().ToString());
-            if (user == null)
-            {
-                throw new Exception("There is no current user!");
-            }
-
+            if (user == null) throw new Exception("There is no current user!");
             return user;
         }
 

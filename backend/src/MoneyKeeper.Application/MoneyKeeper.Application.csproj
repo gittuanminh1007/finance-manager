@@ -14,4 +14,7 @@
   <ItemGroup>
     <ProjectReference Include="..\MoneyKeeper.Core\MoneyKeeper.Core.csproj" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Sessions\Dto\" />
+  </ItemGroup>
 </Project>

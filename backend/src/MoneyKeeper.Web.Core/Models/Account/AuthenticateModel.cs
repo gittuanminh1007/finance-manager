@@ -2,7 +2,7 @@
 using Abp.Auditing;
 using Abp.Authorization.Users;
 
-namespace MoneyKeeper.Models.TokenAuth
+namespace MoneyKeeper.Models.Account
 {
     public class AuthenticateModel
     {

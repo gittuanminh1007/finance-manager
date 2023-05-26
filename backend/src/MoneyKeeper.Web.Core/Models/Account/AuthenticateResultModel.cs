@@ -1,4 +1,4 @@
-﻿namespace MoneyKeeper.Models.TokenAuth
+﻿namespace MoneyKeeper.Models.Account
 {
     public class AuthenticateResultModel
     {

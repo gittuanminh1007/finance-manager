@@ -5,9 +5,9 @@ using Abp.Authorization.Users;
 using Abp.Extensions;
 using MoneyKeeper.Validation;
 
-namespace MoneyKeeper.Authorization.Accounts.Dto
+namespace MoneyKeeper.Models.Account
 {
-    public class RegisterInput : IValidatableObject
+    public class RegisterModel : IValidatableObject
     {
         [Required]
         [StringLength(AbpUserBase.MaxNameLength)]
