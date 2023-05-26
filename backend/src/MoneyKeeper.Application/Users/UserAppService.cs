@@ -100,24 +100,6 @@ namespace MoneyKeeper.Users
             await _userManager.DeleteAsync(user);
         }
 
-        [AbpAuthorize(PermissionNames.Pages_Users_Activation)]
-        public async Task Activate(EntityDto<long> user)
-        {
-            await Repository.UpdateAsync(user.Id, async (entity) =>
-            {
-                entity.IsActive = true;
-            });
-        }
-
-        [AbpAuthorize(PermissionNames.Pages_Users_Activation)]
-        public async Task DeActivate(EntityDto<long> user)
-        {
-            await Repository.UpdateAsync(user.Id, async (entity) =>
-            {
-                entity.IsActive = false;
-            });
-        }
-
         public async Task<ListResultDto<RoleDto>> GetRoles()
         {
             var roles = await _roleRepository.GetAllListAsync();

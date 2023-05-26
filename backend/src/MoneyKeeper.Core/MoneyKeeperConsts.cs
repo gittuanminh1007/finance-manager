@@ -1,6 +1,4 @@
-﻿using MoneyKeeper.Debugging;
-
-namespace MoneyKeeper
+﻿namespace MoneyKeeper
 {
     public class MoneyKeeperConsts
     {
@@ -8,10 +6,6 @@ namespace MoneyKeeper
 
         public const string ConnectionStringName = "Default";
 
-        /// <summary>
-        /// Default pass phrase for SimpleStringCipher decrypt/encrypt operations
-        /// </summary>
-        public static readonly string DefaultPassPhrase =
-            DebugHelper.IsDebug ? "gsKxGZ012HLL3MI5" : "5e90e438e01a483fb007afa6016483ba";
+        public static readonly string DefaultPassPhrase = "5e90e438e01a483fb007afa6016483ba";
     }
 }

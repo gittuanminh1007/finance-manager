@@ -35,6 +35,8 @@ namespace MoneyKeeper
 
         public override void PreInitialize()
         {
+            Configuration.BackgroundJobs.IsJobExecutionEnabled = false;
+
             Configuration.DefaultNameOrConnectionString = _appConfiguration.GetConnectionString(
                 MoneyKeeperConsts.ConnectionStringName
             );

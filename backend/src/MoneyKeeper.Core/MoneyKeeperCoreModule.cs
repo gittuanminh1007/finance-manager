@@ -10,7 +10,6 @@ using MoneyKeeper.Authorization.Users;
 using MoneyKeeper.Configuration;
 using MoneyKeeper.Localization;
 using MoneyKeeper.MultiTenancy;
-using MoneyKeeper.Timing;
 
 namespace MoneyKeeper
 {
@@ -40,11 +39,6 @@ namespace MoneyKeeper
         public override void Initialize()
         {
             IocManager.RegisterAssemblyByConvention(typeof(MoneyKeeperCoreModule).GetAssembly());
-        }
-
-        public override void PostInitialize()
-        {
-            IocManager.Resolve<AppTimes>().StartupTime = Clock.Now;
         }
     }
 }

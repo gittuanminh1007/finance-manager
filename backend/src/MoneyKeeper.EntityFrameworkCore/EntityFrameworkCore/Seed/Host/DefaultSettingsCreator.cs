@@ -17,10 +17,6 @@ namespace MoneyKeeper.EntityFrameworkCore.Seed.Host
 
         public void Create()
         {
-            // Emailing
-            AddSettingIfNotExists(EmailSettingNames.DefaultFromAddress, "admin@mydomain.com", null);
-            AddSettingIfNotExists(EmailSettingNames.DefaultFromDisplayName, "mydomain.com mailer", null);
-
             // Languages
             AddSettingIfNotExists(LocalizationSettingNames.DefaultLanguage, "en", null);
         }
