@@ -33,7 +33,7 @@ var abp = abp || {};
         }
     }
 
-    function loginUserInternal(tenantId, callback) {
+    abp.swagger.login = function (callback) {
         var usernameOrEmailAddress = document.getElementById('userName').value;
         if (!usernameOrEmailAddress) {
             alert('Username or Email Address is required, please try with a valid value !');
@@ -55,15 +55,15 @@ var abp = abp || {};
                     var result = responseJSON.result;
                     var expireDate = new Date(Date.now() + (result.expireInSeconds * 1000));
                     abp.auth.setToken(result.accessToken, expireDate);
-                    callback();   
+                    callback();
                 } else {
                     alert('Login failed !');
                 }
             }
         };
 
-        xhr.open('POST', '/api/TokenAuth/Authenticate', true);
-        xhr.setRequestHeader('Abp.TenantId', tenantId);
+        xhr.open('POST', '/api/Account/Authenticate', true);
+        xhr.setRequestHeader('Abp.TenantId', 1);
         xhr.setRequestHeader('Content-type', 'application/json');
         addAntiForgeryTokenToXhr(xhr);
         xhr.send(
@@ -71,35 +71,6 @@ var abp = abp || {};
                 { usernameOrEmailAddress: usernameOrEmailAddress, password: password }
             )
         );
-    };
-
-    abp.swagger.login = function (callback) {
-        //Get TenantId first
-        var tenancyName = document.getElementById('tenancyName').value;
-
-        if (tenancyName) {
-            var xhrTenancyName = new XMLHttpRequest();
-            xhrTenancyName.onreadystatechange = function () {
-                if (xhrTenancyName.readyState === XMLHttpRequest.DONE && xhrTenancyName.status === 200) {
-                    var responseJSON = JSON.parse(xhrTenancyName.responseText);
-                    var result = responseJSON.result;
-                    if (result.state === 1) { // Tenant exists and active.
-                        loginUserInternal(result.tenantId, callback); // Login for tenant    
-                    } else {
-                        alert('There is no such tenant or tenant is not active !');
-                    }
-                }
-            };
-
-            xhrTenancyName.open('POST', '/api/services/app/Account/IsTenantAvailable', true);
-            xhrTenancyName.setRequestHeader('Content-type', 'application/json');
-            addAntiForgeryTokenToXhr(xhrTenancyName);
-            xhrTenancyName.send(
-                JSON.stringify({ tenancyName: tenancyName })
-            );
-        } else {
-            loginUserInternal(null, callback); // Login for host
-        }
     };
 
     abp.swagger.logout = function () {
@@ -163,7 +134,6 @@ var abp = abp || {};
         };
 
         //Inputs
-        createInput(modalUxContent, 'tenancyName', 'Tenancy Name (Leave empty for Host)');
         createInput(modalUxContent, 'userName', 'Username or email address');
         createInput(modalUxContent, 'password', 'Password', 'password');
 
