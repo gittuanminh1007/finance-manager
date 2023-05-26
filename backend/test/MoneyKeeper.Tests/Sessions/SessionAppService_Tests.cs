@@ -22,13 +22,9 @@ namespace MoneyKeeper.Tests.Sessions
 
             // Assert
             var currentUser = await GetCurrentUserAsync();
-            var currentTenant = await GetCurrentTenantAsync();
 
             output.User.ShouldNotBe(null);
             output.User.Name.ShouldBe(currentUser.Name);
-
-            output.Tenant.ShouldNotBe(null);
-            output.Tenant.Name.ShouldBe(currentTenant.Name);
         }
     }
 }

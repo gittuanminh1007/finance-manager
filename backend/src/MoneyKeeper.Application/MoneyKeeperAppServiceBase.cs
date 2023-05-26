@@ -14,8 +14,6 @@ namespace MoneyKeeper
     /// </summary>
     public abstract class MoneyKeeperAppServiceBase : ApplicationService
     {
-        public TenantManager TenantManager { get; set; }
-
         public UserManager UserManager { get; set; }
 
         protected MoneyKeeperAppServiceBase()
@@ -32,11 +30,6 @@ namespace MoneyKeeper
             }
 
             return user;
-        }
-
-        protected virtual Task<Tenant> GetCurrentTenantAsync()
-        {
-            return TenantManager.GetByIdAsync(AbpSession.GetTenantId());
         }
 
         protected virtual void CheckErrors(IdentityResult identityResult)

@@ -5,6 +5,8 @@ namespace MoneyKeeper.MultiTenancy
 {
     public class Tenant : AbpTenant<User>
     {
+        public const int DefaultTenantId = 1;
+
         public Tenant()
         {            
         }

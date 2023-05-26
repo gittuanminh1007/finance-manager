@@ -1,9 +1,10 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using Abp.Application.Editions;
+using Abp.MultiTenancy;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.DependencyInjection;
 using MoneyKeeper.Authorization;
 using MoneyKeeper.Authorization.Roles;
 using MoneyKeeper.Authorization.Users;
-using MoneyKeeper.Editions;
 using MoneyKeeper.MultiTenancy;
 
 namespace MoneyKeeper.Identity
@@ -15,10 +16,10 @@ namespace MoneyKeeper.Identity
             services.AddLogging();
 
             return services.AddAbpIdentity<Tenant, User, Role>()
-                .AddAbpTenantManager<TenantManager>()
+                .AddAbpTenantManager<AbpTenantManager<Tenant, User>>()
                 .AddAbpUserManager<UserManager>()
                 .AddAbpRoleManager<RoleManager>()
-                .AddAbpEditionManager<EditionManager>()
+                .AddAbpEditionManager<AbpEditionManager>()
                 .AddAbpUserStore<UserStore>()
                 .AddAbpRoleStore<RoleStore>()
                 .AddAbpLogInManager<LogInManager>()
